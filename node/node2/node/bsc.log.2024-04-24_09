@@ -1,0 +1,157 @@
+t=2024-04-24T09:55:52+0100 lvl=info msg="Set global gas cap" cap=50000000
+t=2024-04-24T09:55:52+0100 lvl=info msg="Initializing the KZG library" backend=gokzg
+t=2024-04-24T09:55:52+0100 lvl=info msg="Defaulting to pebble as the backing database"
+t=2024-04-24T09:55:52+0100 lvl=info msg="Allocated cache and file handles" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata cache="3.12 GiB" handles=524288 "memory table"="800.00 MiB"
+t=2024-04-24T09:55:52+0100 lvl=info msg="Opened ancient database" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/chain readonly=false frozen=0
+t=2024-04-24T09:55:52+0100 lvl=info msg="State scheme set to default" scheme=path
+t=2024-04-24T09:55:52+0100 lvl=info msg="Capped dirty cache size" provided="1.95 GiB" adjusted="256.00 MiB"
+t=2024-04-24T09:55:52+0100 lvl=info msg="Clean cache size" provided="1.17 GiB"
+t=2024-04-24T09:55:52+0100 lvl=info msg="Allocated trie memory caches" clean="1.17 GiB" dirty="256.00 MiB"
+t=2024-04-24T09:55:52+0100 lvl=info msg="Unprotected transactions allowed"
+t=2024-04-24T09:55:52+0100 lvl=info msg=Parlia chainConfig="{ChainID: 56 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Ramanujan: 0, Niels: 0, MirrorSync: 5184000, Bruno: 13082000, Berlin: 31302048, YOLO v3: <nil>, CatalystBlock: <nil>, London: 31302048, ArrowGlacier: <nil>, MergeFork:<nil>, Euler: 18907621, Gibbs: 23846001, Nano: 21962149, Moran: 22107423, Planck: 27281024,Luban: 29020050, Plato: 30720096, Hertz: 31302048, Hertzfix: 34140700, ShanghaiTime: 1705996800, KeplerTime: 1705996800, FeynmanTime: 1713419340, FeynmanFixTime: 1713419340, CancunTime: <nil>, Engine: parlia}"
+t=2024-04-24T09:55:52+0100 lvl=info msg="Initialising Ethereum protocol" network=97 dbversion=<nil>
+t=2024-04-24T09:55:52+0100 lvl=error msg="Zero trie root hash!"
+t=2024-04-24T09:55:52+0100 lvl=info msg="New async node buffer" limit="256.00 MiB" layers=0
+t=2024-04-24T09:55:52+0100 lvl=info msg="Opened ancient database" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/state readonly=false frozen=0
+t=2024-04-24T09:55:52+0100 lvl=info msg="Writing default BSC mainnet genesis block"
+t=2024-04-24T09:55:52+0100 lvl=info msg="genesis block hash" hash=0x0d21840abff46b96c84b2ac9e10e4f5cdaeb5693cb665db62a2f3b02d2d57b5b
+t=2024-04-24T09:55:52+0100 lvl=info msg="Initialised chain configuration" config="{ChainID: 56 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Ramanujan: 0, Niels: 0, MirrorSync: 5184000, Bruno: 13082000, Berlin: 31302048, YOLO v3: <nil>, CatalystBlock: <nil>, London: 31302048, ArrowGlacier: <nil>, MergeFork:<nil>, Euler: 18907621, Gibbs: 23846001, Nano: 21962149, Moran: 22107423, Planck: 27281024,Luban: 29020050, Plato: 30720096, Hertz: 31302048, Hertzfix: 34140700, ShanghaiTime: 1705996800, KeplerTime: 1705996800, FeynmanTime: 1713419340, FeynmanFixTime: 1713419340, CancunTime: <nil>, Engine: parlia}"
+t=2024-04-24T09:55:52+0100 lvl=info msg="Stored checkpoint snapshot to disk" number=0 hash=0x0d21840abff46b96c84b2ac9e10e4f5cdaeb5693cb665db62a2f3b02d2d57b5b
+t=2024-04-24T09:55:52+0100 lvl=info msg="Loaded most recent local block" number=0 hash=0x0d21840abff46b96c84b2ac9e10e4f5cdaeb5693cb665db62a2f3b02d2d57b5b root=0x919fcc7ad870b53db0aa76eb588da06bacb6d230195100699fc928511003b422 td=1 age=4y3w3d
+t=2024-04-24T09:55:52+0100 lvl=info msg="Loaded most recent local finalized block" number=0 hash=0x0d21840abff46b96c84b2ac9e10e4f5cdaeb5693cb665db62a2f3b02d2d57b5b root=0x919fcc7ad870b53db0aa76eb588da06bacb6d230195100699fc928511003b422 td=1 age=4y3w3d
+t=2024-04-24T09:55:52+0100 lvl=warn msg="Failed to load snapshot" err="missing or corrupted snapshot"
+t=2024-04-24T09:55:52+0100 lvl=info msg="Rebuilding state snapshot"
+t=2024-04-24T09:55:52+0100 lvl=info msg="Initialized transaction indexer" range="entire chain"
+t=2024-04-24T09:55:52+0100 lvl=warn msg="Sanitizing invalid txpool reannounce time" provided=0s updated=1m0s
+t=2024-04-24T09:55:52+0100 lvl=info msg="Resuming state snapshot generation" root=0x919fcc7ad870b53db0aa76eb588da06bacb6d230195100699fc928511003b422 accounts=0 slots=0 storage="0.00 B" dangling=0 elapsed=2.033ms
+t=2024-04-24T09:55:52+0100 lvl=info msg="Generated state snapshot" accounts=13 slots=0 storage="843.00 B" dangling=0 elapsed=3.858ms
+t=2024-04-24T09:55:52+0100 lvl=info msg="Enabled snap sync" head=0 hash=0x0d21840abff46b96c84b2ac9e10e4f5cdaeb5693cb665db62a2f3b02d2d57b5b
+t=2024-04-24T09:55:52+0100 lvl=info msg="Create votePool successfully"
+t=2024-04-24T09:55:52+0100 lvl=warn msg="Sanitizing invalid gasprice oracle price cap" provided=<nil> updated=100000000000
+t=2024-04-24T09:55:52+0100 lvl=warn msg="Sanitizing invalid gasprice oracle ignore price" provided=<nil> updated=4
+t=2024-04-24T09:55:52+0100 lvl=warn msg="Sanitizing invalid gasprice oracle max header history" provided=0 updated=1
+t=2024-04-24T09:55:52+0100 lvl=warn msg="Sanitizing invalid gasprice oracle max block history" provided=0 updated=1
+t=2024-04-24T09:55:52+0100 lvl=info msg="Starting peer-to-peer node" instance=Geth/v1.4.5-a0572458-20240410/linux-amd64/go1.21.9
+t=2024-04-24T09:55:52+0100 lvl=info msg="New local node record" seq=1713948952476 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=127.0.0.1 udp=30303 tcp=30303
+t=2024-04-24T09:55:52+0100 lvl=info msg="Started P2P networking" self=enode://a42e290f7e53e314826a1a2408cca9db71ed8faf7a93053d6ef82d081282a9d74457976c8bee9197b3e1eb1377b70494c241c757dfd258406663ac6580163899@127.0.0.1:30303
+t=2024-04-24T09:55:52+0100 lvl=info msg="IPC endpoint opened" url=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth.ipc
+t=2024-04-24T09:55:52+0100 lvl=info msg="HTTP server started" endpoint=127.0.0.1:8575 auth=false prefix="" cors="" vhosts=*
+t=2024-04-24T09:55:53+0100 lvl=info msg="New local node record" seq=1713948952477 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:55:55+0100 lvl=info msg="New local node record" seq=1713948952478 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:55:55+0100 lvl=info msg="New local node record" seq=1713948952479 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:05+0100 lvl=info msg="Looking for peers" peercount=0 tried=122 static=4
+t=2024-04-24T09:56:05+0100 lvl=info msg="New local node record" seq=1713948952480 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:05+0100 lvl=info msg="New local node record" seq=1713948952481 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:05+0100 lvl=info msg="New local node record" seq=1713948952482 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:05+0100 lvl=info msg="New local node record" seq=1713948952483 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:05+0100 lvl=info msg="New local node record" seq=1713948952484 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:05+0100 lvl=info msg="New local node record" seq=1713948952485 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:05+0100 lvl=info msg="New local node record" seq=1713948952486 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:15+0100 lvl=info msg="Looking for peers" peercount=0 tried=82 static=4
+t=2024-04-24T09:56:16+0100 lvl=info msg="New local node record" seq=1713948952487 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:17+0100 lvl=info msg="New local node record" seq=1713948952488 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:17+0100 lvl=info msg="New local node record" seq=1713948952489 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:17+0100 lvl=info msg="New local node record" seq=1713948952490 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:17+0100 lvl=info msg="New local node record" seq=1713948952491 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:17+0100 lvl=info msg="New local node record" seq=1713948952492 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:17+0100 lvl=info msg="New local node record" seq=1713948952493 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:17+0100 lvl=info msg="New local node record" seq=1713948952494 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:17+0100 lvl=info msg="New local node record" seq=1713948952495 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:17+0100 lvl=info msg="New local node record" seq=1713948952496 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:17+0100 lvl=info msg="New local node record" seq=1713948952497 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:17+0100 lvl=info msg="New local node record" seq=1713948952498 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:18+0100 lvl=info msg="New local node record" seq=1713948952499 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:18+0100 lvl=info msg="New local node record" seq=1713948952500 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:18+0100 lvl=info msg="New local node record" seq=1713948952501 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:18+0100 lvl=info msg="New local node record" seq=1713948952502 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:18+0100 lvl=info msg="New local node record" seq=1713948952503 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:18+0100 lvl=info msg="New local node record" seq=1713948952504 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:19+0100 lvl=info msg="New local node record" seq=1713948952505 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:19+0100 lvl=info msg="New local node record" seq=1713948952506 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:19+0100 lvl=info msg="New local node record" seq=1713948952507 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:19+0100 lvl=info msg="New local node record" seq=1713948952508 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:19+0100 lvl=info msg="New local node record" seq=1713948952509 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:19+0100 lvl=info msg="New local node record" seq=1713948952510 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:19+0100 lvl=info msg="New local node record" seq=1713948952511 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:19+0100 lvl=info msg="New local node record" seq=1713948952512 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:19+0100 lvl=info msg="New local node record" seq=1713948952513 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:19+0100 lvl=info msg="New local node record" seq=1713948952514 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:19+0100 lvl=info msg="New local node record" seq=1713948952515 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:19+0100 lvl=info msg="New local node record" seq=1713948952516 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952517 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952518 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952519 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952520 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952521 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952522 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952523 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952524 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952525 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952526 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952527 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952528 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952529 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952530 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:20+0100 lvl=info msg="New local node record" seq=1713948952531 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:25+0100 lvl=info msg="Looking for peers" peercount=1 tried=160 static=4
+t=2024-04-24T09:56:36+0100 lvl=info msg="Looking for peers" peercount=0 tried=31 static=4
+t=2024-04-24T09:56:46+0100 lvl=info msg="Looking for peers" peercount=0 tried=92 static=4
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952532 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952533 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952534 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952535 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952536 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952537 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952538 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952539 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952540 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952541 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952542 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952543 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952544 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952545 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952546 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952547 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952548 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952549 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952550 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952551 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952552 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952553 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952554 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952555 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952556 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952557 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:48+0100 lvl=info msg="New local node record" seq=1713948952558 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:49+0100 lvl=info msg="New local node record" seq=1713948952559 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:49+0100 lvl=info msg="New local node record" seq=1713948952560 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:49+0100 lvl=info msg="New local node record" seq=1713948952561 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:51+0100 lvl=info msg="New local node record" seq=1713948952562 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:51+0100 lvl=info msg="New local node record" seq=1713948952563 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:51+0100 lvl=info msg="New local node record" seq=1713948952564 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:56+0100 lvl=info msg="Looking for peers" peercount=1 tried=126 static=4
+t=2024-04-24T09:56:56+0100 lvl=info msg="New local node record" seq=1713948952565 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:56+0100 lvl=info msg="New local node record" seq=1713948952566 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:56+0100 lvl=info msg="New local node record" seq=1713948952567 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:56+0100 lvl=info msg="New local node record" seq=1713948952568 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:57+0100 lvl=info msg="New local node record" seq=1713948952569 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.52.76 udp=30303 tcp=30303
+t=2024-04-24T09:56:57+0100 lvl=info msg="New local node record" seq=1713948952570 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:56:57+0100 lvl=info msg="New local node record" seq=1713948952571 id=7014ed790113244d9b14eff933a77343980dc0426a387d47d5b514c4c00233f9 ip=197.210.77.37 udp=30303 tcp=30303
+t=2024-04-24T09:57:06+0100 lvl=info msg="Looking for peers" peercount=1 tried=162 static=4
+t=2024-04-24T09:57:16+0100 lvl=info msg="Looking for peers" peercount=0 tried=8 static=4
+t=2024-04-24T09:57:26+0100 lvl=info msg="Looking for peers" peercount=0 tried=30 static=4
+t=2024-04-24T09:57:37+0100 lvl=info msg="Looking for peers" peercount=0 tried=23 static=4
+t=2024-04-24T09:57:47+0100 lvl=info msg="Looking for peers" peercount=0 tried=19 static=4
+t=2024-04-24T09:57:57+0100 lvl=info msg="Looking for peers" peercount=1 tried=37 static=4
+t=2024-04-24T09:58:07+0100 lvl=info msg="Looking for peers" peercount=0 tried=28 static=4
+t=2024-04-24T09:58:17+0100 lvl=info msg="Looking for peers" peercount=1 tried=59 static=4
+t=2024-04-24T09:58:28+0100 lvl=info msg="Looking for peers" peercount=0 tried=61 static=4
+t=2024-04-24T09:58:38+0100 lvl=info msg="Looking for peers" peercount=0 tried=72 static=4
+t=2024-04-24T09:58:48+0100 lvl=info msg="Looking for peers" peercount=0 tried=62 static=4
+t=2024-04-24T09:58:58+0100 lvl=info msg="Looking for peers" peercount=1 tried=62 static=4
+t=2024-04-24T09:59:08+0100 lvl=info msg="Looking for peers" peercount=0 tried=75 static=4
+t=2024-04-24T09:59:18+0100 lvl=info msg="Looking for peers" peercount=0 tried=89 static=4
+t=2024-04-24T09:59:28+0100 lvl=info msg="Looking for peers" peercount=1 tried=199 static=4
+t=2024-04-24T09:59:38+0100 lvl=info msg="Looking for peers" peercount=0 tried=33 static=4
+t=2024-04-24T09:59:48+0100 lvl=info msg="Looking for peers" peercount=0 tried=63 static=4
+t=2024-04-24T09:59:58+0100 lvl=info msg="Looking for peers" peercount=1 tried=104 static=4

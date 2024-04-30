@@ -1,0 +1,45 @@
+[Eth]
+NetworkId = 1234321
+
+[Eth.TxPool]
+Locals = []
+NoLocals = true
+Journal = "transactions.rlp"
+Rejournal = 3600000000000
+PriceLimit = 1000000000
+PriceBump = 10
+AccountSlots = 16
+GlobalSlots = 4096
+AccountQueue = 64
+GlobalQueue = 1024
+Lifetime = 10800000000000
+
+[Eth.GPO]
+Blocks = 20
+Percentile = 60
+OracleThreshold = 1000
+
+[Node]
+DataDir = "node"
+InsecureUnlockAllowed = true
+IPCPath = "geth.ipc"
+HTTPHost = "127.0.0.1"
+HTTPPort = 8575
+HTTPVirtualHosts = ["*"]
+HTTPModules = ["debug","eth", "net", "web3", "txpool", "parlia"]
+WSPort = 8576
+WSModules = ["net", "web3", "eth"]
+
+
+[Node.P2P]
+MaxPeers = 50
+NoDiscovery = false
+TrustedNodes = []
+StaticNodes = ["enode://821b6236f2f0bd3fdbbbf060f6d55d95dfbd0cacb8e8c18b15a47d7e41ee52f1641482d9fb79ae0bf1ec0f92b9c66d147e97dc93611679c6862458b0125e199c@127.0.0.1:0?discport=30305"]
+
+
+[Node.LogConfig]
+FileRoot = ""
+FilePath = "bsc.log"
+MaxBytesSize = 10485760
+Level = "trace" 

@@ -31,6 +31,52 @@ func FuzzPrecompiledContracts(f *testing.F) {
 	f.Fuzz(func(t *testing.T, addr uint8, input []byte) {
 		a := addrs[int(addr)%len(addrs)]
 		p := allPrecompiles[a]
+
+		// Bind inputs for the ecrecover precompile
+		if a == common.BytesToAddress([]byte{1}) {
+			input = BindEcRecoverInput(input)
+		}
+
+		// Bind inputs for the modexp precompile
+		if a == common.BytesToAddress([]byte{5}) {
+			input = BindModExpInput(input)
+		}
+
+		// Bind inputs for the ecAdd precompile
+		if a == common.BytesToAddress([]byte{6}) {
+			input = BindEcAddInput(input)
+		}
+
+		// Bind inputs for the ecMul precompile
+		if a == common.BytesToAddress([]byte{7}) {
+			input = BindEcMulInput(input)
+		}
+
+		// Bind inputs for the blake2f precompile
+		if a == common.BytesToAddress([]byte{9}) {
+			input = BindBlake2FInput(input)
+		}
+
+		if a == common.BytesToAddress([]byte{100}) {
+			input = BindTmHeaderValidateInput(input)
+		}
+
+		if a == common.BytesToAddress([]byte{101}) {
+			input = BindIavlMerkleProofValidatePlatoInput(input)
+		}
+
+		if a == common.BytesToAddress([]byte{102}) {
+			input = BindBlsSignatureVerifyInput(input)
+		}
+
+		if a == common.BytesToAddress([]byte{103}) {
+			input = BindCometBFTLightBlockValidateHertzInput(input)
+		}
+
+		if a == common.BytesToAddress([]byte{105}) {
+			input = BindSecp256k1SignatureVerifyInput(input)
+		}
+
 		gas := p.RequiredGas(input)
 		if gas > 10_000_000 {
 			return

@@ -1,0 +1,809 @@
+
+t=2024-04-24T15:59:32+0100 lvl=debug msg="FS scan times" list=40.048µs set=13.66µs diff=2.49µs
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Sanitizing Go's GC trigger" percent=25
+t=2024-04-24T15:59:32+0100 lvl=info msg="Set global gas cap" cap=50000000
+t=2024-04-24T15:59:32+0100 lvl=info msg="Initializing the KZG library" backend=gokzg
+t=2024-04-24T15:59:32+0100 lvl=info msg="Using pebble as the backing database"
+t=2024-04-24T15:59:32+0100 lvl=info msg="Allocated cache and file handles" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata cache="1.60 GiB" handles=524288 "memory table"="409.50 MiB"
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Chain freezer table opened" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/chain table=headers items=0 size="0.00 B"
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Chain freezer table opened" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/chain table=hashes items=0 size="0.00 B"
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Chain freezer table opened" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/chain table=bodies items=0 size="0.00 B"
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Chain freezer table opened" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/chain table=receipts items=0 size="0.00 B"
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Chain freezer table opened" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/chain table=diffs items=0 size="0.00 B"
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Chain freezer table opened" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/chain table=blobs items=0 size="0.00 B"
+t=2024-04-24T15:59:32+0100 lvl=info msg="Opened ancient database" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/chain readonly=false frozen=0
+t=2024-04-24T15:59:32+0100 lvl=info msg="State scheme set to already existing disk db" scheme=path
+t=2024-04-24T15:59:32+0100 lvl=info msg="Capped dirty cache size" provided="1024.00 MiB" adjusted="256.00 MiB"
+t=2024-04-24T15:59:32+0100 lvl=info msg="Clean cache size" provided="614.00 MiB"
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Current full block not old enough to freeze" number=199 hash=0xb1893d92a8659934824275fb4b17683eb484b49ae2f6cf2385bc8afac059b579 delay=90000
+t=2024-04-24T15:59:32+0100 lvl=info msg="Allocated trie memory caches" clean="614.00 MiB" dirty="256.00 MiB"
+t=2024-04-24T15:59:32+0100 lvl=info msg="Unprotected transactions allowed"
+t=2024-04-24T15:59:32+0100 lvl=info msg=Parlia chainConfig="{ChainID: 1234321 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Ramanujan: <nil>, Niels: <nil>, MirrorSync: <nil>, Bruno: <nil>, Berlin: <nil>, YOLO v3: <nil>, CatalystBlock: <nil>, London: <nil>, ArrowGlacier: <nil>, MergeFork:<nil>, Euler: <nil>, Gibbs: <nil>, Nano: <nil>, Moran: <nil>, Planck: <nil>,Luban: <nil>, Plato: <nil>, Hertz: <nil>, Hertzfix: <nil>, ShanghaiTime: <nil>, KeplerTime: <nil>, FeynmanTime: <nil>, FeynmanFixTime: <nil>, CancunTime: <nil>, Engine: parlia}"
+t=2024-04-24T15:59:32+0100 lvl=info msg="Initialising Ethereum protocol" network=191 dbversion=8
+t=2024-04-24T15:59:32+0100 lvl=info msg="New async node buffer" limit="256.00 MiB" layers=0
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Created new diff layer" id=2 block=1 nodes=3 size="383.00 B" root=0xf63082b7d0e75cc7c5cdd656fc3a91719fc6c9630109cd161d9db382bcaa7fb3
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Loaded layer journal" diskroot=0x649825bff3f66f7d813d032521416964c505b589a5a34d59e3d2c4196be97299 diffhead=0xf63082b7d0e75cc7c5cdd656fc3a91719fc6c9630109cd161d9db382bcaa7fb3
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Chain freezer table opened" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/state table=history.meta items=1 size="73.00 B"
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Chain freezer table opened" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/state table=account.index items=1 size="85.00 B"
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Chain freezer table opened" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/state table=storage.index items=1 size="1.00 B"
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Chain freezer table opened" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/state table=account.data items=1 size="1.00 B"
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Chain freezer table opened" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/state table=storage.data items=1 size="1.00 B"
+t=2024-04-24T15:59:32+0100 lvl=info msg="Opened ancient database" database=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth/chaindata/ancient/state readonly=false frozen=1
+t=2024-04-24T15:59:32+0100 lvl=info msg="Initialised chain configuration" config="{ChainID: 1234321 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Ramanujan: <nil>, Niels: <nil>, MirrorSync: <nil>, Bruno: <nil>, Berlin: <nil>, YOLO v3: <nil>, CatalystBlock: <nil>, London: <nil>, ArrowGlacier: <nil>, MergeFork:<nil>, Euler: <nil>, Gibbs: <nil>, Nano: <nil>, Moran: <nil>, Planck: <nil>,Luban: <nil>, Plato: <nil>, Hertz: <nil>, Hertzfix: <nil>, ShanghaiTime: <nil>, KeplerTime: <nil>, FeynmanTime: <nil>, FeynmanFixTime: <nil>, CancunTime: <nil>, Engine: parlia}"
+t=2024-04-24T15:59:32+0100 lvl=info msg="Loaded most recent local block" number=199 hash=0xb1893d92a8659934824275fb4b17683eb484b49ae2f6cf2385bc8afac059b579 root=0xf63082b7d0e75cc7c5cdd656fc3a91719fc6c9630109cd161d9db382bcaa7fb3 td=399 age=4m42s
+t=2024-04-24T15:59:32+0100 lvl=info msg="Loaded most recent local finalized block" number=0 hash=0x27a5492c2f5a0d899868bb8e4ffdc981df0f08ef78b84a230ab33512e4fdbfc3 root=0x649825bff3f66f7d813d032521416964c505b589a5a34d59e3d2c4196be97299 td=1 age=4y3w4d
+t=2024-04-24T15:59:32+0100 lvl=info msg="Snapshot loaded" diskRoot=0x649825bff3f66f7d813d032521416964c505b589a5a34d59e3d2c4196be97299 root=0xf63082b7d0e75cc7c5cdd656fc3a91719fc6c9630109cd161d9db382bcaa7fb3
+t=2024-04-24T15:59:32+0100 lvl=info msg="Initialized transaction indexer" range="last 2350000 blocks"
+t=2024-04-24T15:59:32+0100 lvl=warn msg="Sanitizing invalid txpool reannounce time" provided=0s updated=1m0s
+t=2024-04-24T15:59:32+0100 lvl=debug msg="Blobpool tip threshold updated" tip=1000000000
+t=2024-04-24T15:59:32+0100 lvl=warn msg="Switch sync mode from snap sync to full sync" reason="snap sync complete"
+t=2024-04-24T15:59:32+0100 lvl=info msg="Create votePool successfully"
+t=2024-04-24T15:59:32+0100 lvl=warn msg="Sanitizing invalid gasprice oracle price cap" provided=<nil> updated=100000000000
+t=2024-04-24T15:59:32+0100 lvl=warn msg="Sanitizing invalid gasprice oracle ignore price" provided=<nil> updated=4
+t=2024-04-24T15:59:32+0100 lvl=warn msg="Sanitizing invalid gasprice oracle max header history" provided=0 updated=1
+t=2024-04-24T15:59:32+0100 lvl=warn msg="Sanitizing invalid gasprice oracle max block history" provided=0 updated=1
+t=2024-04-24T15:59:32+0100 lvl=info msg="Starting peer-to-peer node" instance=Geth/v1.4.5-a0572458-20240410/linux-amd64/go1.21.9
+t=2024-04-24T15:59:33+0100 lvl=debug msg="UDP listener up" addr=[::]:30301
+t=2024-04-24T15:59:33+0100 lvl=debug msg="TCP listener up" addr=[::]:30301
+t=2024-04-24T15:59:33+0100 lvl=info msg="New local node record" seq=1713969551235 id=ce83c34fb5c5af2a506b05944418362e6d78936765ffd2a647151ad751c846af ip=127.0.0.1 udp=30301 tcp=30301
+t=2024-04-24T15:59:33+0100 lvl=debug msg="IPCs registered" namespaces=admin,debug,web3,eth,txpool,mev,parlia,miner,net
+t=2024-04-24T15:59:33+0100 lvl=info msg="IPC endpoint opened" url=/home/aaliyah/Desktop/BRAINY_CODELAB/bsc/node/geth.ipc
+t=2024-04-24T15:59:33+0100 lvl=info msg="Started P2P networking" self=enode://126249d3b5ec56445468526d4e8836def1b98022660145a891fdb9603570f378c570d8bf8bfe4cecfca4ca0e8ff4f53e14e85466c92fa73b3146030e4849e0d0@127.0.0.1:30301
+t=2024-04-24T15:59:33+0100 lvl=info msg="HTTP server started" endpoint=127.0.0.1:8575 auth=false prefix="" cors="" vhosts=*
+t=2024-04-24T15:59:33+0100 lvl=debug msg="ENR request failed" id=1b14b764f55a2a566d210c84dd4005b8945e88fcaa40e0c3e0b1f77f17176213 addr=127.0.0.1:30305 err="invalid IP in response record: invalid IP"
+t=2024-04-24T15:59:33+0100 lvl=debug msg="ENR request failed" id=1b14b764f55a2a566d210c84dd4005b8945e88fcaa40e0c3e0b1f77f17176213 addr=127.0.0.1:30305 err="invalid IP in response record: invalid IP"
+t=2024-04-24T15:59:33+0100 lvl=debug msg="ENR request failed" id=ca05658887f8996e4126c1b9adbf68c2e61352cc56e47b3b85d82dc8cc215fdb addr=159.65.153.34:30303 err="udp timeout"
+t=2024-04-24T15:59:33+0100 lvl=info msg="New local node record" seq=1713969551236 id=ce83c34fb5c5af2a506b05944418362e6d78936765ffd2a647151ad751c846af ip=102.215.57.35 udp=57283 tcp=30301
+t=2024-04-24T15:59:33+0100 lvl=debug msg="ENR request failed" id=ca05658887f8996e4126c1b9adbf68c2e61352cc56e47b3b85d82dc8cc215fdb addr=159.65.153.34:30303 err="udp timeout"
+t=2024-04-24T15:59:33+0100 lvl=debug msg="ENR request failed" id=f19cb3c01b75e4ceb3235aa0a8139ce2cffacef489e9f5079809c1f543f8ff5b addr=172.255.253.156:33001 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=info msg="Unlocked account" address=0xa8ac80CC22046d82346bB9506265B1FAfEC64f21
+t=2024-04-24T15:59:34+0100 lvl=info msg="Legacy pool tip threshold updated" tip=0
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Blobpool tip threshold updated" tip=0
+t=2024-04-24T15:59:34+0100 lvl=info msg="Legacy pool tip threshold updated" tip=1000000000
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Blobpool tip threshold updated" tip=1000000000
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Caller gas above allowance, capping" requested=9223372036854775807 cap=50000000
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Executing EVM call finished" runtime=276.61µs
+t=2024-04-24T15:59:34+0100 lvl=error msg="Failed to prepare header for sealing" err="abi: attempting to unmarshal an empty string while arguments are expected"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=d2496c9159f0a06db20735b0cd87bde279da745fadf845c851da656770546686 addr=162.19.222.38:15721 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=d2651dbe432b9c3a2db8103fef566b83d6bf85015015367331a886914ebb9419 addr=62.171.134.147:39797 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=a46bb19d0471f02eb96c0a27ca39582558dbb4e93173012d665f2598c659c488 addr=18.203.152.54:30311 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=ff0dfb10ebb9b373aaff6e46c20b84278157bfd942d905b720b05cf258b60d48 addr=65.109.24.38:30303 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=d39ab3d6a2d291005e788661ea4c940aaa0fd085b5f219e966767f22b8c35c56 addr=65.108.79.188:31404 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=e58409e1358b8d2026cf5c32f1c6d181b7d089af9cf9ea18f7c5c8c54d1879dd addr=135.181.5.106:30303 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=f9a46c30718d7487622784e4a9d182e9638d259890eae964511bced3c5d80b52 addr=188.40.67.160:30303 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=5f5326d39de032ea2134d01127b17ca4a6e98fcb58e26c94ff927324ea03064c addr=69.234.58.210:30306 err="invalid IP in response record: LAN address from WAN host"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=dbd5bf50d81d8ee9b00a8dbc7217df309a2f380f3d1e9615ea7f97f339e7fa65 addr=72.69.181.240:30303 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=6a48c1ef3f7da5a3420298678294eb8e40d6b99223e201d8bec98c771c192586 addr=54.76.165.201:33333 err="invalid IP in response record: LAN address from WAN host"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=413e428db45df62f6ff08f9cde9ca27ce41a977948b72eb96ae8a2991a34b0ee conn=dyndial addr=91.207.54.187:30303 name=Nethermind/v1.25.1+e...
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Message handling failed in `snap`" peer=413e428d err=EOF
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Ethereum handshake failed" id=413e428db45df62f6ff08f9cde9ca27ce41a977948b72eb96ae8a2991a34b0ee conn=dyndial err=EOF
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=413e428db45df62f6ff08f9cde9ca27ce41a977948b72eb96ae8a2991a34b0ee duration=290.306µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=6c8ac98e28d6f26c704414324452522c7bf2dba27a3a4c1115d93526db9d9e5b conn=dyndial addr=90.18.229.19:30404 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Ethereum handshake failed" id=6c8ac98e28d6f26c704414324452522c7bf2dba27a3a4c1115d93526db9d9e5b conn=dyndial err=EOF
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=6c8ac98e28d6f26c704414324452522c7bf2dba27a3a4c1115d93526db9d9e5b duration=277.05µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=7894db0be05f9bbb0bea7c92b68de8718fa8526ef77a423ac33e2df20ea5e8a5 conn=dyndial addr=141.95.45.153:30380 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Ethereum handshake failed" id=7894db0be05f9bbb0bea7c92b68de8718fa8526ef77a423ac33e2df20ea5e8a5 conn=dyndial err=EOF
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=7894db0be05f9bbb0bea7c92b68de8718fa8526ef77a423ac33e2df20ea5e8a5 duration=320.575µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=d15a3c3d45cb9b1a0e9e0a8f0945bacfef272faee51f1eb3aeabd1164658e273 addr=204.144.212.247:4360 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=cf65a6c0dbad95ce787701e1a373da7ef45d0207f80238c89f8a7b3e42473f83 addr=136.158.63.45:46517 err="invalid IP in response record: LAN address from WAN host"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=a46bb19d0471f02eb96c0a27ca39582558dbb4e93173012d665f2598c659c488 addr=18.203.152.54:30311 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=dfd4d08e028ac021e80d3516d5d5ce4a258d0fd3623b6afdde3946e12b041a87 addr=47.92.170.88:30305 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=c54922057c0cddcd63fe8a500d199c71475e732f9e2ffa71af8ece4efb473e2a addr=34.92.140.239:30303 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=6a48c1ef3f7da5a3420298678294eb8e40d6b99223e201d8bec98c771c192586 conn=dyndial addr=54.76.165.201:33333 name=Geth/v1.10.12-stable...
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Snapshot extension registration failed" peer=6a48c1ef err="peer connected on snap without compatible eth support: have [eth/66 snap/1]"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=6a48c1ef3f7da5a3420298678294eb8e40d6b99223e201d8bec98c771c192586 duration=591.412µs req=false err="peer connected on snap without compatible eth support: have [eth/66 snap/1]"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=5bf5eb6abe9182cf97cd4ba2788280f7415788471009cc6ab912ad640f9f067f conn=dyndial addr=198.244.253.60:30400 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=4ccbc74a325e0ef7904bbf7e8d5b05e30d2c37ba883c832c496168ebafd5a2ea addr=159.203.186.67:39797 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=4911af76cf8bb96719f66a155683ecf3290494ca040ac9f7d714d4e23060f4a6 addr=34.87.54.179:30303 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=4d58ab3657799163ec9664a3d9f63ce3612244b42b41482815a612190b5ac202 addr=3.92.127.232:30303 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=5713a6fef3a24a0e69eabdc48c3d6a33b3caafd498ac7ed5eb11a90182a63170 addr=86.48.3.9:39797 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Message handling failed in `snap`" peer=5bf5eb6a err=EOF
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=5f9576c93d54f77ec44952cdd62e18c0ee7befea443dec3af0ce2cd4f353bd10 addr=50.5.38.163:30303 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Ethereum handshake failed" id=5bf5eb6abe9182cf97cd4ba2788280f7415788471009cc6ab912ad640f9f067f conn=dyndial err=EOF
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=5026423d671840447a21dae411ba26ff390c435c46a4cf7d5f8823db549fe4bd addr=54.255.90.19:50303 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=67f53b67391b9bf6ccc2b271f73004c39ec75498b232c839f93e03096a860811 addr=66.94.104.115:39797 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=413e428db45df62f6ff08f9cde9ca27ce41a977948b72eb96ae8a2991a34b0ee addr=91.207.54.187:30303 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=5bf5eb6abe9182cf97cd4ba2788280f7415788471009cc6ab912ad640f9f067f duration=7.173ms req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=6acec1a558d877c59f70d0a9eb4344dd807fbc17ba55e8338248e7c9867c754c addr=154.53.55.175:39797 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=46fc7bf87592ed020288bd9cefdae7a39d74a8637713e196346830c4f05b5c73 conn=dyndial addr=104.199.55.224:30303 name=Nethermind/v1.25.4+a...
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Ethereum handshake failed" id=46fc7bf87592ed020288bd9cefdae7a39d74a8637713e196346830c4f05b5c73 conn=dyndial err=EOF
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=46fc7bf87592ed020288bd9cefdae7a39d74a8637713e196346830c4f05b5c73 duration=374.303µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=7ec8795037956897cebbb9c28b06efdbc3d52eb998d3b17887893e5c606051d5 addr=13.229.134.150:50303 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=6c8ac98e28d6f26c704414324452522c7bf2dba27a3a4c1115d93526db9d9e5b addr=90.18.229.19:30404 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="ENR request failed" id=64f9f38174f976783589cd587a12a8aee2be31dbc7d5d92c8529e369fe1a0a1f addr=156.249.12.172:30303 err="udp timeout"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=5f9576c93d54f77ec44952cdd62e18c0ee7befea443dec3af0ce2cd4f353bd10 conn=dyndial addr=50.5.38.163:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Message handling failed in `snap`" peer=5f9576c9 err=EOF
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Ethereum handshake failed" id=5f9576c93d54f77ec44952cdd62e18c0ee7befea443dec3af0ce2cd4f353bd10 conn=dyndial err=EOF
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=5f9576c93d54f77ec44952cdd62e18c0ee7befea443dec3af0ce2cd4f353bd10 duration=810.979µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=430215b6f20c5d323367d2e5a9ebc013fea16e1967a10736b60c1bb00d01f41b conn=dyndial addr=116.202.130.95:30311 name=Geth/v1.1.20-fc4303c...
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Snapshot extension registration failed" peer=430215b6 err="peer connected on snap without compatible eth support: have [diff/1 eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=430215b6f20c5d323367d2e5a9ebc013fea16e1967a10736b60c1bb00d01f41b duration=644.601µs req=false err="peer connected on snap without compatible eth support: have [diff/1 eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=532c090f80d4d393eaab65ec53068678f3f49839bcf4c62015b9e5c33aca6a34 conn=dyndial addr=144.76.175.172:46124 name=erigon/v1.2.5/linux-...
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=57d830dbeb9f0e05b02f1d52b09a129e1e3ab3deb56d9d81c872b1b1da5beeed conn=dyndial addr=167.235.103.66:30303 name=Nethermind/v1.26.0-e...
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Message handling failed in `snap`" peer=57d830db err=EOF
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Ethereum handshake failed" id=57d830dbeb9f0e05b02f1d52b09a129e1e3ab3deb56d9d81c872b1b1da5beeed conn=dyndial err=EOF
+t=2024-04-24T15:59:34+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=57d830dbeb9f0e05b02f1d52b09a129e1e3ab3deb56d9d81c872b1b1da5beeed duration=869.845µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Couldn't get external IP" err="no UPnP or NAT-PMP router discovered" interface="UPnP or NAT-PMP"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Couldn't add port mapping" proto=TCP extport=30301 intport=30301 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Couldn't add port mapping" proto=UDP extport=30301 intport=30301 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=5b8156fc4011fb0c4f105673a5cb147c740c0dfcfe5cf95253148c77e41887b5 conn=dyndial addr=73.160.85.89:40303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=5b8156fc4011fb0c4f105673a5cb147c740c0dfcfe5cf95253148c77e41887b5 conn=dyndial err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=5b8156fc4011fb0c4f105673a5cb147c740c0dfcfe5cf95253148c77e41887b5 duration=269.159µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=5bf5eb6abe9182cf97cd4ba2788280f7415788471009cc6ab912ad640f9f067f addr=198.244.253.60:30400 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=4c28e6e0e37119b0d7497d2a98fe6aa1495fed9e8f96beebbce23cf1da239c13 addr=103.42.58.95:30300 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=6a04c8ddae675782e565ad7c814938a66a7627c41f09ac0c29491d5a92d651eb addr=101.98.37.34:31404 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=6c61a3069f4f71be0ad732b43bb00813cda0f6ecbe1d9bc54e095e9a0bb45bc1 addr=60.96.63.223:35353 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=46fc7bf87592ed020288bd9cefdae7a39d74a8637713e196346830c4f05b5c73 addr=104.199.55.224:30303 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=55c066b11c75bd78f756b7607ad5afe2e62ff471d81f6d0226316878a19f8d2d addr=68.183.224.173:30303 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=79c53bc0751c01faca22902b5f041811ada146f9d08c81262221e816267cce48 addr=51.161.208.17:30303 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=579b6447dd496774adc74179a1e189ea0498a070d862aca041a450861d7ce94f addr=129.146.144.45:30303 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=5b8156fc4011fb0c4f105673a5cb147c740c0dfcfe5cf95253148c77e41887b5 addr=73.160.85.89:40303 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=770097a720c479d0d2c285f79e295aa9b365925ee1cdc28c0a3b2cc108ff48e7 addr=203.12.14.154:47141 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=57d830dbeb9f0e05b02f1d52b09a129e1e3ab3deb56d9d81c872b1b1da5beeed addr=167.235.103.66:30303 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=6218666efe0e3e7dc62faf658184ee1d17a7ae5d343009bb4634dbd0f0be2a61 addr=18.211.187.153:30333 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=4911af76cf8bb96719f66a155683ecf3290494ca040ac9f7d714d4e23060f4a6 addr=34.87.54.179:30303 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=4987721303a1ecede092321f29c59aefac01167f2384c707fcde0d844e29c378 conn=dyndial addr=202.61.226.25:30303 name=besu/v23.10.3-hotfix...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=579b6447dd496774adc74179a1e189ea0498a070d862aca041a450861d7ce94f conn=dyndial addr=129.146.144.45:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=579b6447dd496774adc74179a1e189ea0498a070d862aca041a450861d7ce94f conn=dyndial err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=579b6447dd496774adc74179a1e189ea0498a070d862aca041a450861d7ce94f duration=301.179µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=532c090f80d4d393eaab65ec53068678f3f49839bcf4c62015b9e5c33aca6a34 conn=dyndial err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=532c090f80d4d393eaab65ec53068678f3f49839bcf4c62015b9e5c33aca6a34 duration=185.063ms req=true err="disconnect requested"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=cf4aad6a5f2bebcd0b4cb4972036d7c26256c41cd7ed2c3eeb2c9b5d6e7f3781 addr=95.216.38.179:30308 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Message handling failed in `snap`" peer=49877213 err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=4987721303a1ecede092321f29c59aefac01167f2384c707fcde0d844e29c378 conn=dyndial err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=4987721303a1ecede092321f29c59aefac01167f2384c707fcde0d844e29c378 duration=173.410ms req=true err="disconnect requested"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=48f6e610fc620448865a8d0ce9aa1181e5d9105f1a84dc61d40e8740b10b6dc5 conn=dyndial addr=144.76.185.244:30239 name=erigon/v1.2.5/linux-...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=64f9f38174f976783589cd587a12a8aee2be31dbc7d5d92c8529e369fe1a0a1f conn=dyndial addr=156.249.12.172:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Message handling failed in `snap`" peer=64f9f381 err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=64f9f38174f976783589cd587a12a8aee2be31dbc7d5d92c8529e369fe1a0a1f conn=dyndial err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=64f9f38174f976783589cd587a12a8aee2be31dbc7d5d92c8529e369fe1a0a1f duration=287.715µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=6c61a3069f4f71be0ad732b43bb00813cda0f6ecbe1d9bc54e095e9a0bb45bc1 conn=dyndial addr=60.96.63.223:35353 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Message handling failed in `snap`" peer=6c61a306 err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=6c61a3069f4f71be0ad732b43bb00813cda0f6ecbe1d9bc54e095e9a0bb45bc1 conn=dyndial err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=6c61a3069f4f71be0ad732b43bb00813cda0f6ecbe1d9bc54e095e9a0bb45bc1 duration=254.776µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=4987721303a1ecede092321f29c59aefac01167f2384c707fcde0d844e29c378 addr=202.61.226.25:30303 err="invalid IP in response record: loopback address from non-loopback host"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=49e18143509e1f14b21d2269777fc1289ea6c7c2dd6e3cbff4ea3e47043129dc addr=86.49.249.251:4015 err="invalid IP in response record: LAN address from WAN host"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=6a04c8ddae675782e565ad7c814938a66a7627c41f09ac0c29491d5a92d651eb conn=dyndial addr=101.98.37.34:31404 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=6a04c8ddae675782e565ad7c814938a66a7627c41f09ac0c29491d5a92d651eb conn=dyndial err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=6a04c8ddae675782e565ad7c814938a66a7627c41f09ac0c29491d5a92d651eb duration=216.683µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=48f6e610fc620448865a8d0ce9aa1181e5d9105f1a84dc61d40e8740b10b6dc5 conn=dyndial err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=48f6e610fc620448865a8d0ce9aa1181e5d9105f1a84dc61d40e8740b10b6dc5 duration=195.037ms req=true err="disconnect requested"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=49b815eb67f7d13b2abb9d278b903c34dd456b0e1a0f9199b4cdb5f48362e62f conn=dyndial addr=86.17.234.57:30332 name=CoreGeth/ETCMCgethNo...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=770097a720c479d0d2c285f79e295aa9b365925ee1cdc28c0a3b2cc108ff48e7 conn=dyndial addr=203.12.14.154:47141 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Message handling failed in `snap`" peer=770097a7 err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=770097a720c479d0d2c285f79e295aa9b365925ee1cdc28c0a3b2cc108ff48e7 conn=dyndial err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=770097a720c479d0d2c285f79e295aa9b365925ee1cdc28c0a3b2cc108ff48e7 duration=293.382µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=49080468b12f606aba63caae8ab9135beb6ff8908a8723b8bf6b8285be423b4c addr=34.121.168.18:30303 err="invalid IP in response record: loopback address from non-loopback host"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=79c53bc0751c01faca22902b5f041811ada146f9d08c81262221e816267cce48 conn=dyndial addr=51.161.208.17:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=79c53bc0751c01faca22902b5f041811ada146f9d08c81262221e816267cce48 conn=dyndial err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Message handling failed in `snap`" peer=79c53bc0 err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=79c53bc0751c01faca22902b5f041811ada146f9d08c81262221e816267cce48 duration=6.495ms req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=7894db0be05f9bbb0bea7c92b68de8718fa8526ef77a423ac33e2df20ea5e8a5 addr=141.95.45.153:30380 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=49b20a9a6f41d3b14edae851f1693aa647b857b4826b568149b5d6423bb7d538 conn=dyndial addr=51.89.144.178:30303 name=bor/v1.1.0/linux-amd...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=49bab4d1ab3b014ca0efaf2b4d4986add6e67894557afc1276c27b509b115d45 conn=dyndial addr=34.172.241.239:30303 name=ronin/v2.7.1-c64ddd3...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Snapshot extension registration failed" peer=49bab4d1 err="peer connected on snap without compatible eth support: have [eth/66 ronin/1 snap/1]"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=49bab4d1ab3b014ca0efaf2b4d4986add6e67894557afc1276c27b509b115d45 duration=623.67µs req=false err="peer connected on snap without compatible eth support: have [eth/66 ronin/1 snap/1]"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=49080468b12f606aba63caae8ab9135beb6ff8908a8723b8bf6b8285be423b4c conn=dyndial addr=34.121.168.18:30303 name=besu/v24.3.3/linux-x...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Message handling failed in `snap`" peer=49080468 err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=49080468b12f606aba63caae8ab9135beb6ff8908a8723b8bf6b8285be423b4c conn=dyndial err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=49080468b12f606aba63caae8ab9135beb6ff8908a8723b8bf6b8285be423b4c duration=4.370ms req=true err="disconnect requested"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=49b815eb67f7d13b2abb9d278b903c34dd456b0e1a0f9199b4cdb5f48362e62f conn=dyndial err="network ID mismatch: 1 (!= 191)"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Message handling failed in `snap`" peer=49b815eb err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=49b815eb67f7d13b2abb9d278b903c34dd456b0e1a0f9199b4cdb5f48362e62f duration=162.149ms req=true err="disconnect requested"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=08b73ffc55951fbb3ae01d86af16d4ccf395ee89e4f354ccb23617436d00a9b0 conn=dyndial addr=51.161.209.73:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Message handling failed in `snap`" peer=08b73ffc err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=08b73ffc55951fbb3ae01d86af16d4ccf395ee89e4f354ccb23617436d00a9b0 conn=dyndial err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=08b73ffc55951fbb3ae01d86af16d4ccf395ee89e4f354ccb23617436d00a9b0 duration=735.562µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=499f1a33ab9c20187c1a350fa5e3a3c9b13d072dd03717433bcdb139ccdc1d57 addr=76.159.179.202:30309 err="invalid IP in response record: LAN address from WAN host"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=488802576ce9dcfe6e04d482bd2d70ac266e30988a36313bff53c31ddddef66b addr=66.168.245.15:30303 err="invalid IP in response record: loopback address from non-loopback host"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=492fd619e17098a8a5d6b311bc52e390d83160a2cc644a997a2e90ed409aef2b conn=dyndial addr=61.221.15.98:30404 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Message handling failed in `snap`" peer=492fd619 err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=492fd619e17098a8a5d6b311bc52e390d83160a2cc644a997a2e90ed409aef2b conn=dyndial err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=492fd619e17098a8a5d6b311bc52e390d83160a2cc644a997a2e90ed409aef2b duration=592.101µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=48eb613f88216c07fb006a54424e40a6af7c9dc608980867a14c6995e2069865 addr=13.36.165.109:30303 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=487948169aab0d4807d46a721fd9fb1d037bde2438d03031a867ad34134f7c3e addr=167.235.145.176:30303 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=488802576ce9dcfe6e04d482bd2d70ac266e30988a36313bff53c31ddddef66b conn=dyndial addr=66.168.245.15:30303 name=besu/v24.3.0/linux-x...
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Message handling failed in `snap`" peer=48880257 err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=488802576ce9dcfe6e04d482bd2d70ac266e30988a36313bff53c31ddddef66b conn=dyndial err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=488802576ce9dcfe6e04d482bd2d70ac266e30988a36313bff53c31ddddef66b duration=1.155ms req=true err="disconnect requested"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=4e87f89bbe90ba795c974973e7389d3da68e81882352535556b30b6db29dc40c addr=52.221.118.151:30303 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Ethereum handshake failed" id=49b20a9a6f41d3b14edae851f1693aa647b857b4826b568149b5d6423bb7d538 conn=dyndial err="network ID mismatch: 137 (!= 191)"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Message handling failed in `snap`" peer=49b20a9a err=EOF
+t=2024-04-24T15:59:35+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=49b20a9a6f41d3b14edae851f1693aa647b857b4826b568149b5d6423bb7d538 duration=199.710ms req=false err="network ID mismatch: 137 (!= 191)"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=4bb640c5e0cc6d708807c370531688c8e1bf8886d29a9aa0ab5c3d9909e6ef1d addr=51.81.187.65:30303 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=488fb9128c17d9350808d1a10851bcf3703d3fe4a54788b0c571e32b1dddd645 addr=75.167.25.119:39797 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=48dadf0260ec9d372225f6820ddd845b7756f2932610364b52133a01af89f94b addr=62.72.46.35:39797 err="udp timeout"
+t=2024-04-24T15:59:35+0100 lvl=debug msg="ENR request failed" id=499fcdcf037f69966e29afdc8bb42e18d1c0e31263f1928884f872b013117020 addr=202.65.89.204:30303 err="invalid IP in response record: loopback address from non-loopback host"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=49d1a3eb6528c6ba01fca22afd1cffb7e740ff85e4e17b0c641322fe49d02635 addr=183.142.109.158:30303 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=49ac41a220b1ababd2424aedfb7cd920aefa1dbfe71f5333542f2a0aa174776b conn=dyndial addr=89.232.109.242:30309 name=Geth/v1.0.18-stable-...
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Snapshot extension registration failed" peer=49ac41a2 err="peer connected on snap without compatible eth support: have [eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=49ac41a220b1ababd2424aedfb7cd920aefa1dbfe71f5333542f2a0aa174776b duration=617.126µs req=false err="peer connected on snap without compatible eth support: have [eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=49a5b482272d6a9e642740323c9f6dc6c250ffbb5201602960e5e6a183fa41bb conn=dyndial addr=74.201.193.144:34876 name=erigon/v1.2.5/linux-...
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=499cf1dca172450535b931d11e9cab8fd3a74324ea5bd13a5a48bd6e7e6579a7 conn=dyndial addr=195.201.245.178:30304 name=Geth/v1.3.2-stable-e...
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=492fd619e17098a8a5d6b311bc52e390d83160a2cc644a997a2e90ed409aef2b addr=61.221.15.98:30404 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=cc77d0105ae7c8a3fe6fa21254fbdc11d42ab38b6f0cb3bfb332f702119c188d addr=154.12.232.161:39797 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=ca676033d7ba9e85221e942ed910d51c8d9b97cebae2a095a371944efece7e46 addr=159.65.70.117:30301 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=08b73ffc55951fbb3ae01d86af16d4ccf395ee89e4f354ccb23617436d00a9b0 addr=51.161.209.73:30303 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=499fcdcf037f69966e29afdc8bb42e18d1c0e31263f1928884f872b013117020 conn=dyndial addr=202.65.89.204:30303 name=besu/v24.3.0/linux-x...
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Message handling failed in `snap`" peer=499fcdcf err=EOF
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Ethereum handshake failed" id=499fcdcf037f69966e29afdc8bb42e18d1c0e31263f1928884f872b013117020 conn=dyndial err=EOF
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=499fcdcf037f69966e29afdc8bb42e18d1c0e31263f1928884f872b013117020 duration=1.063ms req=true err="disconnect requested"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=cb350a9d02ae883a71e09fe0cf83663d0486d1f0fe368b31ec77c79edf316607 addr=194.233.88.205:39797 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Ethereum handshake failed" id=499cf1dca172450535b931d11e9cab8fd3a74324ea5bd13a5a48bd6e7e6579a7 conn=dyndial err="network ID mismatch: 4090 (!= 191)"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Message handling failed in `snap`" peer=499cf1dc err=EOF
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=499cf1dca172450535b931d11e9cab8fd3a74324ea5bd13a5a48bd6e7e6579a7 duration=210.944ms req=false err="network ID mismatch: 4090 (!= 191)"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=cce9d392411a3a47801f4816d46a263c2962bf381888da93984f050ec49451bf addr=49.13.55.160:30306 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=49bd26fd4ec94b3747ecd2c288cf9c02b87b376365469b93f48829b968b33a89 conn=dyndial addr=13.39.192.80:30303 name=besu/v23.1.3/linux-x...
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Ethereum handshake failed" id=49a5b482272d6a9e642740323c9f6dc6c250ffbb5201602960e5e6a183fa41bb conn=dyndial err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Ethereum handshake failed" id=49bd26fd4ec94b3747ecd2c288cf9c02b87b376365469b93f48829b968b33a89 conn=dyndial err="network ID mismatch: 197 (!= 191)"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Message handling failed in `snap`" peer=49bd26fd err=EOF
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=49bd26fd4ec94b3747ecd2c288cf9c02b87b376365469b93f48829b968b33a89 duration=400.824µs req=false err="network ID mismatch: 197 (!= 191)"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=49a5b482272d6a9e642740323c9f6dc6c250ffbb5201602960e5e6a183fa41bb duration=251.496ms req=false err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=ce8c186db0fabe4b780eac8e1f195d5bfb0a431f98e8e259877c0f74f1ec01b3 addr=3.34.87.22:30313 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=ce8a79fa609cb4ad2823b2da278d666866e5109a1ca402c1fca24119db3c8fce addr=15.165.138.250:30303 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=ceb34bf6dc5ef019feeb71936500a31708032d6ca785c5d327fb1762e5fc980b addr=5.104.83.11:39797 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=49a4a396f21974ee31d72569b69ccc04c5a6b3c7cb379377f05f421d0336fa9a conn=dyndial addr=46.250.240.143:30304 name=Geth/v0.1.0-unstable...
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=49a4ed8253b02af80b0d944a58ef4e021e0dbe60f3cbcc1d8e7b958f852e1abc conn=dyndial addr=82.152.174.24:30303 name=bor/v0.2.17-stable-d...
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=62dd45b122a1dfc2d5da8e95b7163a74c55679a07d8fc68e2a496104b8045283 addr=44.221.198.244:30356 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=49b23b274a603989b18979e742744c7759a7621374f6d65d18c1847ca981256e addr=3.95.250.161:46952 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=49b3781015562e879d35333b1c4b1914fbf8780120b78e93c7deb8ff4dad3060 addr=117.27.228.179:31351 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=49aca7f0be47349607e829481b8af7b03b08632b287c95f1f4e2e936bae8b2cb addr=59.12.44.229:30303 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=49b2bda4269b2ff2ef6bf25c7e396bb578ee08039a682b042c3238d83e2d2aa6 addr=95.216.147.18:30303 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=49b6a72084ebbf8994ddff9fb647292cb3e438f9e7fa3780dafcf5d853a99388 addr=34.80.235.138:30303 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Ethereum handshake failed" id=49a4ed8253b02af80b0d944a58ef4e021e0dbe60f3cbcc1d8e7b958f852e1abc conn=dyndial err="network ID mismatch: 137 (!= 191)"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=49a6750cc1c630896f9e061a95f745de54bcc892f220f025151492511d94b097 conn=dyndial addr=23.243.221.5:30414 name=besu/v24.1.2/linux-x...
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Message handling failed in `snap`" peer=49a4ed82 err=EOF
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=49a4ed8253b02af80b0d944a58ef4e021e0dbe60f3cbcc1d8e7b958f852e1abc duration=195.804ms req=false err="network ID mismatch: 137 (!= 191)"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=49b052b665a751ec5448f6f1022d87c9824e3d1e121c12ca5fe7f183c2400698 conn=dyndial addr=68.13.126.53:30309 name=besu/v24.3.0/linux-x...
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Message handling failed in `snap`" peer=49b052b6 err=EOF
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Ethereum handshake failed" id=49b052b665a751ec5448f6f1022d87c9824e3d1e121c12ca5fe7f183c2400698 conn=dyndial err=EOF
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=49b052b665a751ec5448f6f1022d87c9824e3d1e121c12ca5fe7f183c2400698 duration=2.363ms req=true err="disconnect requested"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=49d1a3eb6528c6ba01fca22afd1cffb7e740ff85e4e17b0c641322fe49d02635 conn=dyndial addr=183.142.109.158:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Ethereum handshake failed" id=49d1a3eb6528c6ba01fca22afd1cffb7e740ff85e4e17b0c641322fe49d02635 conn=dyndial err=EOF
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=49d1a3eb6528c6ba01fca22afd1cffb7e740ff85e4e17b0c641322fe49d02635 duration=747.9µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=fd6eaaaf1c7ad0aa7de1dc6d41470c7815c7bfc5eebb579e0ba26013e0bbf561 addr=89.187.163.132:30310 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=49ae768fcabfd81f2437ef76b7e5ad84fee9c4ec26d3d78ce5fcd93608e402ce conn=dyndial addr=20.14.81.230:30304 name=Geth/v1.13.0-stable-...
+t=2024-04-24T15:59:36+0100 lvl=debug msg="ENR request failed" id=499f76247a35cd260b8386b9d02c93ab14ae96935250b632e4befa819ab3acea addr=175.122.13.164:30303 err="udp timeout"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Ethereum handshake failed" id=49a4a396f21974ee31d72569b69ccc04c5a6b3c7cb379377f05f421d0336fa9a conn=dyndial err="network ID mismatch: 255 (!= 191)"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=49a4a396f21974ee31d72569b69ccc04c5a6b3c7cb379377f05f421d0336fa9a duration=400.659ms req=false err="network ID mismatch: 255 (!= 191)"
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Message handling failed in `snap`" peer=49a6750c err=EOF
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Ethereum handshake failed" id=49a6750cc1c630896f9e061a95f745de54bcc892f220f025151492511d94b097 conn=dyndial err=EOF
+t=2024-04-24T15:59:36+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=49a6750cc1c630896f9e061a95f745de54bcc892f220f025151492511d94b097 duration=341.269ms req=true err="disconnect requested"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49a6750cc1c630896f9e061a95f745de54bcc892f220f025151492511d94b097 addr=23.243.221.5:30414 err="invalid IP in response record: loopback address from non-loopback host"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49a6750cc1c630896f9e061a95f745de54bcc892f220f025151492511d94b097 addr=23.243.221.5:30414 err="invalid IP in response record: loopback address from non-loopback host"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="Ethereum handshake failed" id=49ae768fcabfd81f2437ef76b7e5ad84fee9c4ec26d3d78ce5fcd93608e402ce conn=dyndial err="network ID mismatch: 1490 (!= 191)"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="Message handling failed in `snap`" peer=49ae768f err=EOF
+t=2024-04-24T15:59:37+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=49ae768fcabfd81f2437ef76b7e5ad84fee9c4ec26d3d78ce5fcd93608e402ce duration=396.566ms req=false err="network ID mismatch: 1490 (!= 191)"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=ce8c186db0fabe4b780eac8e1f195d5bfb0a431f98e8e259877c0f74f1ec01b3 addr=3.34.87.22:30313 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=49a9130bca957d12ecaf5c2d002c984b829498b014c20d305e55c0970c17241f conn=dyndial addr=194.233.65.107:30303 name=CoreGeth/v1.12.19-st...
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49bc56ffeb71cca4c9beea912126d28bdbddd5754060fc70007f3e2496f60d16 addr=54.254.30.81:10272 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49a566128b50b5bcf0a0f81d6a26b0d142d71d09099a88f7ea7dc039cc23335c addr=88.159.43.127:30327 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49bca14817e65cc8fd14c04f9a684846e5b1a1267a0426720b01223234cb7e57 addr=52.200.159.241:5050 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49b6a72084ebbf8994ddff9fb647292cb3e438f9e7fa3780dafcf5d853a99388 addr=34.80.235.138:30303 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49ae768fcabfd81f2437ef76b7e5ad84fee9c4ec26d3d78ce5fcd93608e402ce addr=20.14.81.230:30304 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49b6a72084ebbf8994ddff9fb647292cb3e438f9e7fa3780dafcf5d853a99388 addr=34.80.235.138:30303 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="Ethereum handshake failed" id=49a9130bca957d12ecaf5c2d002c984b829498b014c20d305e55c0970c17241f conn=dyndial err="network ID mismatch: 1 (!= 191)"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="Message handling failed in `snap`" peer=49a9130b err=EOF
+t=2024-04-24T15:59:37+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=49a9130bca957d12ecaf5c2d002c984b829498b014c20d305e55c0970c17241f duration=319.106ms req=false err="network ID mismatch: 1 (!= 191)"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=ce9fb5d12b1c4cbcfcdb3bcf4be7d3955528359b071e7cb6f7312b895a2d3eaa addr=78.47.250.37:28657 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49ae78bf2ecbc804032655a146f465656459705c071e6bbc44980e4eab7d59b5 addr=86.61.29.91:30303 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49bca14817e65cc8fd14c04f9a684846e5b1a1267a0426720b01223234cb7e57 addr=52.200.159.241:5050 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49b6a72084ebbf8994ddff9fb647292cb3e438f9e7fa3780dafcf5d853a99388 addr=34.80.235.138:30303 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49aa0c69d30e7640f53951a4f55942d44d98a8af9e333630e4408648c9001acc addr=178.128.21.130:30303 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49a9130bca957d12ecaf5c2d002c984b829498b014c20d305e55c0970c17241f addr=194.233.65.107:30303 err="udp timeout"
+t=2024-04-24T15:59:37+0100 lvl=debug msg="ENR request failed" id=49a25766b7fcc1adc56cd52fc0d682d444a2bf3fb0e559d5040d5e8e0c5142b6 addr=77.32.103.140:61006 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce8f1a128e842c929278cfe09fca22f524488894ce56ad08a6ac7015e2a485c8 addr=34.151.118.155:30303 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce821afc0e0f957f6bd99ead5b531872eb0212fbafe2117771a6a4741356d998 addr=183.99.121.84:30303 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ceae6995c9e12b0b0ef55553383e966d52fc1c4e594d06e208ab149e69e68fd3 addr=218.232.187.197:30304 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce8c186db0fabe4b780eac8e1f195d5bfb0a431f98e8e259877c0f74f1ec01b3 addr=3.34.87.22:30313 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=49bef98a010a0b9acef36caa5ddac7e0b75f69aa49d5f7277836fe62d8b1d7c1 addr=13.83.123.152:46141 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=49bed5b5c585ab3dee704e87ff0225ccd2b41c2176d483d2818c211f672b69f5 addr=35.210.215.77:30303 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=49be87be60bee606bcfcf601e1c628348d94424f93455b1c52e4b6538bc06542 addr=18.130.140.251:16691 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=49bec0b1176fd6c10779415d8b354eaf4dde36157e532eec1cc3af996346d666 addr=18.212.82.139:30303 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=49bec02e46c76e3f6c2c6684f49b234bd861d70f4de0bfb9c0be1f1004a8e888 addr=52.225.76.187:41026 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=49beba744f407fd623bb62a599ccba21960c5f090d252abae8eed0da104f2511 addr=20.51.207.160:31949 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=49bf5acbf861ac74edde072a8052558bc780e0018cd46cd1b7fcbe2bd32dcf03 addr=108.211.19.217:30303 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=49be4fafb2808e6ede7d54102eae13e7d553c62cd7c61f6491df4a2709efc796 addr=172.183.131.255:32833 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=49be1d0a3a378087ef54692c43c1cdccf0e3e1ef3b1a5f3d39665fd698be1c66 addr=172.183.91.46:9458 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=49be4e7477a5e5d8372799b34239aa5b2b9c7dfaf9afe95ec7394427f733c3ad addr=116.255.60.237:54036 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=49be1b88ab6f9a7de2d393b3b874a4bab086d43ab6c0565b8c875c2836ef1f85 addr=183.199.88.141:20045 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=49be5d9cc41a75eb717a5800231fa9d25c5bb94f569c4481856918039e801a10 addr=40.65.196.146:11274 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce8a79fa609cb4ad2823b2da278d666866e5109a1ca402c1fca24119db3c8fce addr=15.165.138.250:30303 err="invalid IP in response record: zero address"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce8f1a128e842c929278cfe09fca22f524488894ce56ad08a6ac7015e2a485c8 addr=34.151.118.155:30303 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce9fb5d12b1c4cbcfcdb3bcf4be7d3955528359b071e7cb6f7312b895a2d3eaa addr=78.47.250.37:28657 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce8ab33996d60e9e508af7c1e631432cf6327eaf71a9cb7d7599a65b334353cb addr=59.13.194.176:30303 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce8c186db0fabe4b780eac8e1f195d5bfb0a431f98e8e259877c0f74f1ec01b3 addr=3.34.87.22:30313 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce8a79fa609cb4ad2823b2da278d666866e5109a1ca402c1fca24119db3c8fce addr=15.165.138.250:30303 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ceb34bf6dc5ef019feeb71936500a31708032d6ca785c5d327fb1762e5fc980b addr=5.104.83.11:39797 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce88af60570841b2862b76b6b821dd4f9765191fc870d901b08cc797c383a292 addr=174.129.27.4:30305 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce8b4222ab731cc49a5a797e61fccd1f32158e34b216a4fd527257dbf19d11fb addr=125.132.1.233:30303 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce9fb5d12b1c4cbcfcdb3bcf4be7d3955528359b071e7cb6f7312b895a2d3eaa addr=78.47.250.37:28657 err="udp timeout"
+t=2024-04-24T15:59:38+0100 lvl=debug msg="ENR request failed" id=ce9f177409c0ecd1f76f3780cd43064a7c32aea94f662557924baaef8306e603 addr=158.101.126.252:30303 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=ce8a79fa609cb4ad2823b2da278d666866e5109a1ca402c1fca24119db3c8fce addr=15.165.138.250:30303 err="invalid IP in response record: zero address"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=ce8b4222ab731cc49a5a797e61fccd1f32158e34b216a4fd527257dbf19d11fb addr=125.132.1.233:30303 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=ce91cbb22ccf5cceafd1023073f54f454cb1599484978d50477f8ca69dc1777d addr=159.69.191.111:30303 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=ce8ab0f2501998b8100aa576ce6258dca22a997393808a0b60f100cca80e9a51 addr=157.230.106.217:30303 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=cea78366720d695a1e1f53c6f25cbf9663a8a6fb15d5788535076168ef78368a addr=5.78.83.148:30303 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=ce9fb5d12b1c4cbcfcdb3bcf4be7d3955528359b071e7cb6f7312b895a2d3eaa addr=78.47.250.37:28657 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=ce8f1a128e842c929278cfe09fca22f524488894ce56ad08a6ac7015e2a485c8 addr=34.151.118.155:30303 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=c8d519fae7ad4fa7160f9cfd29512a01032b1b5427dd1c0025cbbfe2d7cdd197 addr=138.197.179.180:30303 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=d21f3ab76a82d324aa04f0a8ff2ebf8a565c4f982f0380781236c71cd6b4fad9 addr=52.77.164.200:5059 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=296c1e2506c4bbb9c3deb4740bc86a3dbbe2d640602a7551835d65c68b903cdc addr=194.33.40.251:30334 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=33a78522e965d2bb9f99ac75b7fd8b22b0c61c113e97576a4a940b704cb467f0 addr=148.113.176.25:30303 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=ce8433d85d73d4a08059a74a6f73f4b1a061c54ae51d6144034b8f98ecbef897 addr=5.78.83.183:22304 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=ce8433d85d73d4a08059a74a6f73f4b1a061c54ae51d6144034b8f98ecbef897 addr=5.78.83.183:22304 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=ce8589545c725b48de6bea316c166714896e32e8fac3178f1975b8345e781300 addr=5.189.164.222:48925 err="udp timeout"
+t=2024-04-24T15:59:39+0100 lvl=debug msg="ENR request failed" id=cea56e865d18d9d927d1c48116152c5712f2f7750830f2fb314215b9fd3fc517 addr=160.202.131.165:30303 err="udp timeout"
+t=2024-04-24T15:59:40+0100 lvl=debug msg="ENR request failed" id=ce93cb4682f7086e185967f9d0cf5d3ea634e398b5d24499e73c61f2e164b35f addr=66.26.155.119:30308 err="invalid IP in response record: LAN address from WAN host"
+t=2024-04-24T15:59:40+0100 lvl=debug msg="ENR request failed" id=ce80524cd4430a31ad11a2f20b3adb1d3b7c2ba4e2ffce30203a64c053ab9b27 addr=178.23.126.85:31100 err="udp timeout"
+t=2024-04-24T15:59:40+0100 lvl=debug msg="ENR request failed" id=ce843cf05fa759d36ddb9e02b9b4250aa58953e6468510d1e9ce803510ff3e69 addr=121.125.194.188:30303 err="udp timeout"
+t=2024-04-24T15:59:40+0100 lvl=debug msg="ENR request failed" id=ce96378498942b2070bbafc9bb64b78474c04b03728e3fed0465a4cf8ef607d2 addr=65.21.146.164:11670 err="udp timeout"
+t=2024-04-24T15:59:41+0100 lvl=debug msg="Revalidated node" b=10 id=cce9d392411a3a47801f4816d46a263c2962bf381888da93984f050ec49451bf checks=1
+t=2024-04-24T15:59:41+0100 lvl=debug msg="ENR request failed" id=ce8a79fa609cb4ad2823b2da278d666866e5109a1ca402c1fca24119db3c8fce addr=15.165.138.250:30303 err="invalid IP in response record: zero address"
+t=2024-04-24T15:59:41+0100 lvl=debug msg="ENR request failed" id=ce8b4222ab731cc49a5a797e61fccd1f32158e34b216a4fd527257dbf19d11fb addr=125.132.1.233:30303 err="udp timeout"
+t=2024-04-24T15:59:41+0100 lvl=debug msg="ENR request failed" id=ce9fb5d12b1c4cbcfcdb3bcf4be7d3955528359b071e7cb6f7312b895a2d3eaa addr=78.47.250.37:28657 err="udp timeout"
+t=2024-04-24T15:59:41+0100 lvl=debug msg="ENR request failed" id=ce8f1a128e842c929278cfe09fca22f524488894ce56ad08a6ac7015e2a485c8 addr=34.151.118.155:30303 err="udp timeout"
+t=2024-04-24T15:59:42+0100 lvl=debug msg="ENR request failed" id=ae51fb28f4f5c3f24df0a71772cafa7b96bc4822261f22101946a76cfd7ecf02 addr=31.220.78.120:39797 err="udp timeout"
+t=2024-04-24T15:59:42+0100 lvl=debug msg="ENR request failed" id=adfe79385226e8caec6ba3b1b9975d50b175a8a00ab6c05633156fef7a616d35 addr=149.102.153.227:28657 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=aff551b51895bb14bc1476601c66349ffd2c3582a7ff9c7dc992baa87f307aa9 addr=54.254.240.16:30318 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=af9892b9e65b4e9ccdd2f71a17d8795b6ea7595b02f34e4ccdd46b0a5fb5a69c addr=80.112.90.238:30326 err="invalid IP in response record: LAN address from WAN host"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=af86b754dea705f818d5cd6fa5b8e0309cc5cf1dc43ab9423dd75c4040e4c5cd addr=188.166.43.235:30303 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=af725d845b9753fa625857e1660a0dc516b548d5b407c656aa70bc61fd673b86 addr=62.171.132.14:39797 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=ae44979628a7d4418c4587b3db75dce6507175afd46a2b703c05c588f63ab05b addr=5.161.75.68:30311 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=info msg="Looking for peers" peercount=0 tried=87 static=1
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=af696935897282198f57ef57fb9c39be842da0af2f9414b706b6c3ac11ce7253 addr=194.163.136.145:28657 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=ae28a184ff98c2e4cd2f49beb3b33bbbe6d02801041eda2ac584296f6803beb7 addr=62.138.0.29:40303 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=aed600886a24c6259a6873fb90815976b34d2e5a6d7bd98060bed3a048188114 addr=173.212.246.252:39797 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=ae8b5a94e47f5c04c8048ca41c71c178c30a76353c0637618557d9124e93314b addr=80.158.36.82:30303 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=af1cccba36f3573e707445045cdd9db3d604989105539581308ab95d3a14b01f addr=62.171.144.103:39797 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=aefb5d7b13d11ed6a72b24263dd7b5f9b391ec2d894406fa60eccfa85f5bd6a1 addr=78.47.103.116:30303 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=ae3ff3c914933b700f734e2cb13f7d24fbb277850e1de65f76e0d4d28e000e4a addr=106.228.97.4:1032 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=ae78b342ec25e08436b2f41e94eee95f435d705da3d4bc5c7dfc4375504275c8 addr=139.196.103.10:30323 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=ae458491c6ccd0a44f4551b46d09e04ae27348f61c59e725f9c30426109cf71d addr=121.98.239.168:30404 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=cea56e865d18d9d927d1c48116152c5712f2f7750830f2fb314215b9fd3fc517 conn=dyndial addr=160.202.131.165:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Ethereum handshake failed" id=cea56e865d18d9d927d1c48116152c5712f2f7750830f2fb314215b9fd3fc517 conn=dyndial err=EOF
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=cea56e865d18d9d927d1c48116152c5712f2f7750830f2fb314215b9fd3fc517 duration=699.25µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=f9a46c30718d7487622784e4a9d182e9638d259890eae964511bced3c5d80b52 conn=dyndial addr=188.40.67.160:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Message handling failed in `snap`" peer=f9a46c30 err=EOF
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Ethereum handshake failed" id=f9a46c30718d7487622784e4a9d182e9638d259890eae964511bced3c5d80b52 conn=dyndial err=EOF
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=f9a46c30718d7487622784e4a9d182e9638d259890eae964511bced3c5d80b52 duration=876.523µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=ff0dfb10ebb9b373aaff6e46c20b84278157bfd942d905b720b05cf258b60d48 conn=dyndial addr=65.109.24.38:30303 name=Nethermind/v1.25.3+e...
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Ethereum handshake failed" id=ff0dfb10ebb9b373aaff6e46c20b84278157bfd942d905b720b05cf258b60d48 conn=dyndial err=EOF
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=ff0dfb10ebb9b373aaff6e46c20b84278157bfd942d905b720b05cf258b60d48 duration=833.597µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=e58409e1358b8d2026cf5c32f1c6d181b7d089af9cf9ea18f7c5c8c54d1879dd conn=dyndial addr=135.181.5.106:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Message handling failed in `snap`" peer=e58409e1 err=EOF
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Ethereum handshake failed" id=e58409e1358b8d2026cf5c32f1c6d181b7d089af9cf9ea18f7c5c8c54d1879dd conn=dyndial err=EOF
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=e58409e1358b8d2026cf5c32f1c6d181b7d089af9cf9ea18f7c5c8c54d1879dd duration=1.414ms req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=cebbe6d795d7b40971b92fd88000cea8dd3efb628c6f6d4016ad05ba17ac402f conn=dyndial addr=116.203.27.75:30312 name=Geth/v1.3.13-799ee98...
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=afc0d7f18bd37600aace173921b8c7d5cd7925e34584a665e67698d201f36300 addr=52.206.55.21:5052 err="udp timeout"
+t=2024-04-24T15:59:43+0100 lvl=debug msg="ENR request failed" id=afc0d7f18bd37600aace173921b8c7d5cd7925e34584a665e67698d201f36300 addr=52.206.55.21:5052 err="udp timeout"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="ENR request failed" id=afdb01068e97b9a69fa4444a5934a6cf8705b1ae8c8784670a668d8a369c1875 addr=5.161.195.102:30313 err="udp timeout"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="ENR request failed" id=afd2a2bff72224156091ff3dcad8587e1d3855e82455624fb66379f0b8430bac addr=18.170.226.149:30315 err="udp timeout"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=ce9f177409c0ecd1f76f3780cd43064a7c32aea94f662557924baaef8306e603 conn=dyndial addr=158.101.126.252:30303 name=Geth/v0.1.0-unstable...
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Ethereum handshake failed" id=cebbe6d795d7b40971b92fd88000cea8dd3efb628c6f6d4016ad05ba17ac402f conn=dyndial err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=cebbe6d795d7b40971b92fd88000cea8dd3efb628c6f6d4016ad05ba17ac402f duration=186.915ms req=true err="disconnect requested"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="ENR request failed" id=afc0d7f18bd37600aace173921b8c7d5cd7925e34584a665e67698d201f36300 addr=52.206.55.21:5052 err="udp timeout"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Ethereum handshake failed" id=ce9f177409c0ecd1f76f3780cd43064a7c32aea94f662557924baaef8306e603 conn=dyndial err=EOF
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Message handling failed in `snap`" peer=ce9f1774 err=EOF
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=ce9f177409c0ecd1f76f3780cd43064a7c32aea94f662557924baaef8306e603 duration=279.192ms req=true err="disconnect requested"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Caller gas above allowance, capping" requested=9223372036854775807 cap=50000000
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Executing EVM call finished" runtime=639.028µs
+t=2024-04-24T15:59:44+0100 lvl=error msg="Failed to prepare header for sealing" err="abi: attempting to unmarshal an empty string while arguments are expected"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=9e3f37ae4a129666a6b2615219144d6e774ac5828682d8b72b489ebe00bb331f conn=dyndial addr=91.203.30.8:30303 name=erigon/v2.58.2-67703...
+t=2024-04-24T15:59:44+0100 lvl=debug msg="ENR request failed" id=5aa9a200448bd527090c48540d4964fe9600972fc3b0322a99e0201f3737d566 addr=173.249.6.202:28657 err="udp timeout"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=132159ef6072257e469981547eadaf0e56a741b9f4f0cc40b8303e11490cd1e5 conn=dyndial addr=142.132.196.237:30303 name=erigon/v2.59.3-088fd...
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=08951e8b45f0dbe01fa8b267b6009c7213c90e0f600e5ca90698bc2c73ab71dd conn=dyndial addr=24.193.29.93:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Ethereum handshake failed" id=9e3f37ae4a129666a6b2615219144d6e774ac5828682d8b72b489ebe00bb331f conn=dyndial err="network ID mismatch: 11155111 (!= 191)"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=9e3f37ae4a129666a6b2615219144d6e774ac5828682d8b72b489ebe00bb331f duration=166.518ms req=true err="disconnect requested"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Ethereum handshake failed" id=132159ef6072257e469981547eadaf0e56a741b9f4f0cc40b8303e11490cd1e5 conn=dyndial err=EOF
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=132159ef6072257e469981547eadaf0e56a741b9f4f0cc40b8303e11490cd1e5 duration=178.132ms req=true err="disconnect requested"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="ENR request failed" id=aff07defac84d8c928de750db9aab220e3bac49be14195e129d7a9ec387a3ef5 addr=141.94.160.143:30333 err="udp timeout"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=3e8e8a9bf6936080b5774751cf8e46258d695ad5be7cd3253a187836cf950eb2 conn=dyndial addr=65.109.154.151:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Ethereum handshake failed" id=3e8e8a9bf6936080b5774751cf8e46258d695ad5be7cd3253a187836cf950eb2 conn=dyndial err=EOF
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=3e8e8a9bf6936080b5774751cf8e46258d695ad5be7cd3253a187836cf950eb2 duration=322.039µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="ENR request failed" id=afe5578780dc04414b0620182ff621e96874c613ca8844cbcf7164d69a955a6d addr=67.220.95.11:30303 err="udp timeout"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Ethereum handshake failed" id=08951e8b45f0dbe01fa8b267b6009c7213c90e0f600e5ca90698bc2c73ab71dd conn=dyndial err="network ID mismatch: 1 (!= 191)"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=08951e8b45f0dbe01fa8b267b6009c7213c90e0f600e5ca90698bc2c73ab71dd duration=281.756ms req=true err="breach of protocol"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="ENR request failed" id=afc6e270a67dfa061f6745e330211931d8ac72983aedc06ae5f5a4714ad7cfbc addr=217.63.8.156:30404 err="udp timeout"
+t=2024-04-24T15:59:44+0100 lvl=debug msg="ENR request failed" id=aff95fc81e04549ab25e598ab41c6d1913c792b32e2bbb5ba79ec9c1a1cbfe7f addr=115.70.90.218:30303 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=aff95fc81e04549ab25e598ab41c6d1913c792b32e2bbb5ba79ec9c1a1cbfe7f addr=115.70.90.218:30303 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=aff07defac84d8c928de750db9aab220e3bac49be14195e129d7a9ec387a3ef5 addr=141.94.160.143:30333 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=afc6e270a67dfa061f6745e330211931d8ac72983aedc06ae5f5a4714ad7cfbc addr=217.63.8.156:30404 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=afc0d7f18bd37600aace173921b8c7d5cd7925e34584a665e67698d201f36300 addr=52.206.55.21:5052 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=afc6e270a67dfa061f6745e330211931d8ac72983aedc06ae5f5a4714ad7cfbc addr=217.63.8.156:30404 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=aff07defac84d8c928de750db9aab220e3bac49be14195e129d7a9ec387a3ef5 addr=141.94.160.143:30333 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=afc0d7f18bd37600aace173921b8c7d5cd7925e34584a665e67698d201f36300 addr=52.206.55.21:5052 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=afc6e270a67dfa061f6745e330211931d8ac72983aedc06ae5f5a4714ad7cfbc addr=217.63.8.156:30404 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=afc0d7f18bd37600aace173921b8c7d5cd7925e34584a665e67698d201f36300 addr=52.206.55.21:5052 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=3e8e8a9bf6936080b5774751cf8e46258d695ad5be7cd3253a187836cf950eb2 addr=65.109.154.151:30303 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=08951e8b45f0dbe01fa8b267b6009c7213c90e0f600e5ca90698bc2c73ab71dd addr=24.193.29.93:30303 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=486916d74ba3bf7266bd91e6e9a055ce141787dd04226e42152d3e0e2700a2e0 addr=190.104.184.68:1255 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=4bd93fb80f4bc9027868b3668467d51ca6ae9e2156c8ce4d7a168d33d50cd344 addr=114.207.112.91:30303 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=469dd53ce49e7aaa7c78c223b4d55aeb36212246ce6ebb44b41903475802bbbd addr=8.217.33.31:8300 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=2d38072c9cd8c822de1a3cf2ba709cea58830be923f72f968932f8e714a8517a addr=175.118.204.220:30304 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=fb3d08e476d94e230e577eb9b2c5deadd3f5116097fb04cf3cb476f96dbe52a0 conn=dyndial addr=51.77.109.54:58582 name=Geth/v1.10.26-stable...
+t=2024-04-24T15:59:45+0100 lvl=debug msg="Snapshot extension registration failed" peer=fb3d08e4 err="peer connected on snap without compatible eth support: have [eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=fb3d08e476d94e230e577eb9b2c5deadd3f5116097fb04cf3cb476f96dbe52a0 duration=1.333ms req=false err="peer connected on snap without compatible eth support: have [eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=af301111d01f33f3168109ede24f1fa7b667aaa5e788adc961210eeba787464d addr=122.29.157.69:30303 err="udp timeout"
+t=2024-04-24T15:59:45+0100 lvl=debug msg="ENR request failed" id=afa58273904926eead51b74dbc2868c48e4d950daad2428741d1004d93dd330b addr=139.99.69.114:30303 err="invalid IP in response record: loopback address from non-loopback host"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="ENR request failed" id=af833c252710b88cdf1b964cd1d0be35fa44dd709ce037ed6c3cc84eff8382d8 addr=3.34.87.22:30305 err="udp timeout"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="ENR request failed" id=afdf1cb0ea289ada475213d84eaee9b09998ebcd0ea41575e3767153851af790 addr=173.212.193.228:10440 err="udp timeout"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="ENR request failed" id=afde44cad56eafbcd8561a119e98c555c34abf9cd9ff72ffb44ccc0088fca3c0 addr=75.62.70.233:30303 err="udp timeout"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="ENR request failed" id=afde44cad56eafbcd8561a119e98c555c34abf9cd9ff72ffb44ccc0088fca3c0 addr=75.62.70.233:30303 err="udp timeout"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="ENR request failed" id=afd2c7081bca53bd3abb7e630ea1e02ed05c2f8f926ba523fbd4ec8e2b70afb6 addr=34.81.204.98:45609 err="udp timeout"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="ENR request failed" id=afd325e7c01790606d910807792f2b7260b9d34a45d8a5059c0c4304e62c0227 addr=80.41.102.206:30303 err="udp timeout"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="ENR request failed" id=afde44cad56eafbcd8561a119e98c555c34abf9cd9ff72ffb44ccc0088fca3c0 addr=75.62.70.233:30303 err="udp timeout"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=90355c3c1db9d1f55c5acfe11f14aa3f8be5646a7418fa409fbafb885b0978e7 conn=dyndial addr=118.38.106.81:30303 name=Worldland/v1.0.5-uns...
+t=2024-04-24T15:59:46+0100 lvl=debug msg="Snapshot extension registration failed" peer=90355c3c err="peer connected on snap without compatible eth support: have [eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=90355c3c1db9d1f55c5acfe11f14aa3f8be5646a7418fa409fbafb885b0978e7 duration=663.568µs req=false err="peer connected on snap without compatible eth support: have [eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="ENR request failed" id=e8317825acd0c54ef3646250b89780f74289960649b9b62802b448e18daadfe1 addr=13.213.199.41:30305 err="udp timeout"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="ENR request failed" id=e6efad407b3080dff734304a374cd928f40084e443d30c178f0774d20f8d3139 addr=18.138.12.170:30308 err="udp timeout"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="ENR request failed" id=e6a6d98d26346fa6cf2ff7a22ce42e0d4532411a8957a11435ab3d61052ed840 addr=18.178.30.68:30312 err="udp timeout"
+t=2024-04-24T15:59:46+0100 lvl=debug msg="ENR request failed" id=eae85f7038c13826893ad55f155a4e06463f4eb7dccb4aed5a13729d9ecf8c4c addr=35.75.26.226:30315 err="udp timeout"
+t=2024-04-24T15:59:47+0100 lvl=debug msg="ENR request failed" id=afc6e270a67dfa061f6745e330211931d8ac72983aedc06ae5f5a4714ad7cfbc addr=217.63.8.156:30404 err="udp timeout"
+t=2024-04-24T15:59:47+0100 lvl=debug msg="ENR request failed" id=afe5578780dc04414b0620182ff621e96874c613ca8844cbcf7164d69a955a6d addr=67.220.95.11:30303 err="udp timeout"
+t=2024-04-24T15:59:47+0100 lvl=debug msg="ENR request failed" id=afc0d7f18bd37600aace173921b8c7d5cd7925e34584a665e67698d201f36300 addr=52.206.55.21:5052 err="udp timeout"
+t=2024-04-24T15:59:47+0100 lvl=debug msg="ENR request failed" id=fbe212e190e1c2b72600935e80b7e91583f3e88adfca6ed717db4cd0370883b0 addr=89.187.163.132:30377 err="udp timeout"
+t=2024-04-24T15:59:47+0100 lvl=debug msg="ENR request failed" id=fc71e90d0c2ef1cede96e995c5a081d46965156c57a468b4d969f5e963b5b5fd addr=138.199.25.14:30380 err="udp timeout"
+t=2024-04-24T15:59:47+0100 lvl=debug msg="ENR request failed" id=afc0d7f18bd37600aace173921b8c7d5cd7925e34584a665e67698d201f36300 addr=52.206.55.21:5052 err="udp timeout"
+t=2024-04-24T15:59:47+0100 lvl=debug msg="ENR request failed" id=e4510ee8476171533df5791deb91adad0231e0c43cd28f8ea4504be7c5804f3e addr=66.45.231.62:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=af86aeade2faec5a23668ca864ebf143995c775d4bec8a4005618e18bb9f45f0 addr=134.16.99.113:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=8ecc16f9400d6fc4435150f0c599b7934779ab0f0e4d22ce95c7d616c2627beb addr=63.34.52.202:33333 err="invalid IP in response record: LAN address from WAN host"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=ae9442fd878df7d8266c09fadc5f2da6b8cc385fda223186a39b4735bd26c357 addr=43.206.209.18:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=afe80bb33d674bf9505d7b8fae44767501e28acaaeca0cf746a09c4b836045ad addr=128.10.126.23:38306 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=ec2acf6be374f890bedd0a5d4f9119bcfcee84fbd32dc37bf58d857a95e997a9 addr=207.180.198.158:39797 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=82c3b08e005b851acf0cb3d9378d3f94ceeda5aac03b4f2482c0bebad04787af addr=4.246.213.112:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=83d036e78570ed22e24ee5f60136762468c9cc14e39e6452becc24889128f0b1 addr=5.35.244.114:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=90be416684b3cdad4ac4b32c9e3316848f8c70daf05938cc5700c585cf4152b6 addr=31.13.203.42:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=852b8573d106dbf1a858bb0fb4e365bc95b43efe5cda2c95c657bd7c5c6256f4 addr=71.34.96.160:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=91e91dc892d3accc225ccc6d9c97488d5b59a90a7e3f2340bc9c412c630032cb addr=172.223.77.157:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=96be46971caf92f950086e812336a9f9d0b60ec3c5c390e226c24c7880428996 addr=34.78.120.181:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=90b292d28f27233f5a073a119b475c152486003d7df4c5599a9d9d98dd8ffebc addr=130.61.82.169:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=8a5f48f8a4269d6dc899c40a763942471ce062c0a052914485515b5c6ac9c781 addr=35.207.162.98:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=88e989585b7f0f12d3e2802efae8c3b9ec6b9cf5696a7bb4992b716b7cad8b4f addr=95.179.208.62:39797 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=9fdc52b1c342a2f3c07caff89151c5ef2a859102384ffa46345da886ae910ba4 addr=34.68.10.13:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=9f99a12fc6cbb9b9f5b10b326a8021038cdc1f90d02c9ce62d0afbe057688b3e addr=71.247.210.58:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=9f4df6ae4d3c2fa3c0e14d8f4881ab131a6633660f5be81e5952c5f1e2e766b5 addr=73.42.146.146:30303 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=967f921f553fc7c01b41728eaac857cce027d03dabba88aefa9e4c63782b4d52 addr=40.70.129.31:28657 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=89f16f02229a9cdb51dca8b9817547be3a6f82e51df2e86839431c655b706469 addr=46.4.66.175:30297 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=78ecb79950a50144f36f3dc2e44a519fbebd1df358da8c865d69ca86ec2f4a19 addr=203.118.151.136:30404 err="udp timeout"
+t=2024-04-24T15:59:48+0100 lvl=debug msg="ENR request failed" id=15329991ca352b980dc5e54faa281e7b41077ca3eadd20dd62f9927dd87af79f addr=135.181.160.125:60151 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=e48674f2ed763ad7ed7d8fd8c869878d0fdb17208b421c134b99879df85d31b9 addr=165.109.152.102:30320 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=83c2cd06fd0665c718db626b5fbca24e40bdc39ca913d256cb6e3f5eb6e4c462 addr=103.21.0.222:31404 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=83d036e78570ed22e24ee5f60136762468c9cc14e39e6452becc24889128f0b1 addr=5.35.244.114:30303 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=83c2cd06fd0665c718db626b5fbca24e40bdc39ca913d256cb6e3f5eb6e4c462 addr=103.21.0.222:31404 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=83c2cd06fd0665c718db626b5fbca24e40bdc39ca913d256cb6e3f5eb6e4c462 addr=103.21.0.222:31404 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=83c38df29f13a25ac9e5b84f12a138b4b0590a68316b51c669f77667b0ed05df addr=148.252.147.228:46384 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=83caf3fa0209057a79408c84c8bc57cab19060bcd571e8465557bdbbd0459a06 addr=49.13.119.89:30303 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=83ca0d08ce0213648dfe0cf88bcfc9531ffc738934d2ba9b0604e27d8796288a addr=98.236.39.121:23306 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=83ca14e877cf4fe0a49227c3fa2426feed67a11fe73746ed7c71685ce54dcbf8 addr=199.21.241.254:39797 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=83ccdb39922d73b48e694c292e84d18e1be178437b65013ffd4ed8fd5293f80c addr=157.245.221.36:30303 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=83d76f09bc307beb602670ea67d5538693c166fbc5b12dba9d3117216d04c82b addr=147.12.250.50:53810 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=83ce098914899da3a7d7655464d3824ad15febb96b7986c29474cec48159dce1 addr=143.110.178.119:3588 err="udp timeout"
+t=2024-04-24T15:59:49+0100 lvl=debug msg="ENR request failed" id=83e8ae2fb080a41297e3ece068899451e4536a40feb2b868c23698946d5b735b addr=38.242.219.138:30303 err="invalid IP in response record: loopback address from non-loopback host"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=e7cba26a96af4d7cb8540355e2fe406b2ad8560221a162f8e886dcb538de31a0 addr=35.84.167.170:30311 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d68779e4e7baed70342b3f99a252a728241b630580e749d377a9aa17ad48e6 addr=31.220.83.195:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d6cd1f6ec5d5f2de841854ced65ec4aaa809e348a08fd237cb1ea41c6cf3cb addr=34.89.249.173:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d68779e4e7baed70342b3f99a252a728241b630580e749d377a9aa17ad48e6 addr=31.220.83.195:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d6cd1f6ec5d5f2de841854ced65ec4aaa809e348a08fd237cb1ea41c6cf3cb addr=34.89.249.173:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83c2cd06fd0665c718db626b5fbca24e40bdc39ca913d256cb6e3f5eb6e4c462 addr=103.21.0.222:31404 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d68779e4e7baed70342b3f99a252a728241b630580e749d377a9aa17ad48e6 addr=31.220.83.195:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d6cd1f6ec5d5f2de841854ced65ec4aaa809e348a08fd237cb1ea41c6cf3cb addr=34.89.249.173:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83e02f74fd756887631de5041535fbe863e0c0ed633758cce0da7da00ab4ce0c addr=211.250.94.245:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83df41681a09e529506951a1c1aea38f00585c47a7042824767545e2c25b2b7e addr=87.219.94.99:30308 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d6cd1f6ec5d5f2de841854ced65ec4aaa809e348a08fd237cb1ea41c6cf3cb addr=34.89.249.173:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d68779e4e7baed70342b3f99a252a728241b630580e749d377a9aa17ad48e6 addr=31.220.83.195:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d036e78570ed22e24ee5f60136762468c9cc14e39e6452becc24889128f0b1 addr=5.35.244.114:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83e13c71eef8133ccd9c6a9009bb832163e8db89bf11027a6f500c607e9b9046 addr=15.235.218.6:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83e8ae2fb080a41297e3ece068899451e4536a40feb2b868c23698946d5b735b addr=38.242.219.138:30303 err="invalid IP in response record: loopback address from non-loopback host"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d76f09bc307beb602670ea67d5538693c166fbc5b12dba9d3117216d04c82b addr=147.12.250.50:53810 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83e13c71eef8133ccd9c6a9009bb832163e8db89bf11027a6f500c607e9b9046 addr=15.235.218.6:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83dace59695bd07cc306aa3d821f91611eb451fbc4adafb911fdbdd0e2a7201e addr=106.37.96.28:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83c38df29f13a25ac9e5b84f12a138b4b0590a68316b51c669f77667b0ed05df addr=148.252.147.228:46242 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=2a142fda18fc7603829df90cda9cd044938e8b13ab51852ccd7e0b0169db6855 addr=149.143.118.109:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d036e78570ed22e24ee5f60136762468c9cc14e39e6452becc24889128f0b1 addr=5.35.244.114:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d6cd1f6ec5d5f2de841854ced65ec4aaa809e348a08fd237cb1ea41c6cf3cb addr=34.89.249.173:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=83d68779e4e7baed70342b3f99a252a728241b630580e749d377a9aa17ad48e6 addr=31.220.83.195:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="ENR request failed" id=515c6231e5a0d924bb01d90d6a855ca0567ef91b56e67c3cf3ebf91e66f55662 addr=65.109.88.35:30303 err="udp timeout"
+t=2024-04-24T15:59:50+0100 lvl=debug msg="Revalidated node" b=11 id=c8d519fae7ad4fa7160f9cfd29512a01032b1b5427dd1c0025cbbfe2d7cdd197 checks=1
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=83e8ae2fb080a41297e3ece068899451e4536a40feb2b868c23698946d5b735b addr=38.242.219.138:30303 err="invalid IP in response record: loopback address from non-loopback host"
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=83d036e78570ed22e24ee5f60136762468c9cc14e39e6452becc24889128f0b1 addr=5.35.244.114:30303 err="udp timeout"
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=83c2cd06fd0665c718db626b5fbca24e40bdc39ca913d256cb6e3f5eb6e4c462 addr=103.21.0.222:31404 err="udp timeout"
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=83d6cd1f6ec5d5f2de841854ced65ec4aaa809e348a08fd237cb1ea41c6cf3cb addr=34.89.249.173:30303 err="udp timeout"
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=83d68779e4e7baed70342b3f99a252a728241b630580e749d377a9aa17ad48e6 addr=31.220.83.195:30303 err="udp timeout"
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=83c2cd06fd0665c718db626b5fbca24e40bdc39ca913d256cb6e3f5eb6e4c462 addr=103.21.0.222:31404 err="udp timeout"
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=83d6cd1f6ec5d5f2de841854ced65ec4aaa809e348a08fd237cb1ea41c6cf3cb addr=34.89.249.173:30303 err="udp timeout"
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=83d68779e4e7baed70342b3f99a252a728241b630580e749d377a9aa17ad48e6 addr=31.220.83.195:30303 err="udp timeout"
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=e78713880081e8e071c23a1e5952b78f18343dd5e545f7924bf372d70fb0e836 addr=107.21.47.68:30317 err="udp timeout"
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=83e0f5afba8850c8659c332b537085fc40efb9d4fd3e28913e710a058012a16d addr=49.247.198.113:30303 err="udp timeout"
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=83d76f09bc307beb602670ea67d5538693c166fbc5b12dba9d3117216d04c82b addr=147.12.250.50:53810 err="udp timeout"
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=83ce098914899da3a7d7655464d3824ad15febb96b7986c29474cec48159dce1 addr=143.110.178.119:30303 err="udp timeout"
+t=2024-04-24T15:59:51+0100 lvl=debug msg="ENR request failed" id=83e0f5afba8850c8659c332b537085fc40efb9d4fd3e28913e710a058012a16d addr=49.247.198.113:30303 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=83df41681a09e529506951a1c1aea38f00585c47a7042824767545e2c25b2b7e addr=87.219.94.99:30308 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=83ce098914899da3a7d7655464d3824ad15febb96b7986c29474cec48159dce1 addr=143.110.178.119:30303 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=83ce098914899da3a7d7655464d3824ad15febb96b7986c29474cec48159dce1 addr=143.110.178.119:30303 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=83ccdb39922d73b48e694c292e84d18e1be178437b65013ffd4ed8fd5293f80c addr=157.245.221.36:30303 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=bfc288b592f611b4f38a2ee14b8aea2c4abbcfe99f6f300ad435b80ff4b17403 addr=109.243.1.179:5172 err="invalid IP in response record: LAN address from WAN host"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=e48674f2ed763ad7ed7d8fd8c869878d0fdb17208b421c134b99879df85d31b9 addr=165.109.152.102:30320 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=bca88cceaf4d798e01312a050d0f9522b31ffad861576fd94a90e8e62a17557a conn=dyndial addr=162.19.37.23:31311 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=b30c7635b3f4b75c0ab94734fd7ba16bdfc8c511fe45bda42e2b1208aa93c5c3 conn=dyndial addr=51.89.96.86:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Ethereum handshake failed" id=b30c7635b3f4b75c0ab94734fd7ba16bdfc8c511fe45bda42e2b1208aa93c5c3 conn=dyndial err=EOF
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=b30c7635b3f4b75c0ab94734fd7ba16bdfc8c511fe45bda42e2b1208aa93c5c3 duration=279.691µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=b183843dfb6d623ec6313b2064ed12e92ac55abd8b2c8f8361d363c60a8a63c9 conn=dyndial addr=119.12.130.54:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Message handling failed in `snap`" peer=b183843d err=EOF
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Ethereum handshake failed" id=b183843dfb6d623ec6313b2064ed12e92ac55abd8b2c8f8361d363c60a8a63c9 conn=dyndial err=EOF
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=b183843dfb6d623ec6313b2064ed12e92ac55abd8b2c8f8361d363c60a8a63c9 duration=314.584µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=bb7c128b39523b785c8c6d8b143fe5b573f43b913cccdba2a9ff00024faf7d32 conn=dyndial addr=185.155.97.41:31404 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Ethereum handshake failed" id=bb7c128b39523b785c8c6d8b143fe5b573f43b913cccdba2a9ff00024faf7d32 conn=dyndial err=EOF
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=bb7c128b39523b785c8c6d8b143fe5b573f43b913cccdba2a9ff00024faf7d32 duration=266.096µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Ethereum handshake failed" id=bca88cceaf4d798e01312a050d0f9522b31ffad861576fd94a90e8e62a17557a conn=dyndial err="network ID mismatch: 17000 (!= 191)"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Message handling failed in `snap`" peer=bca88cce err=EOF
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=bca88cceaf4d798e01312a050d0f9522b31ffad861576fd94a90e8e62a17557a duration=166.573ms req=false err="network ID mismatch: 17000 (!= 191)"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=b36984ed7728a27870f4a089efe4e0de91b4f38a99d81381208b0fbdf4c96fa0 conn=dyndial addr=57.128.184.89:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Message handling failed in `snap`" peer=b36984ed err=EOF
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Ethereum handshake failed" id=b36984ed7728a27870f4a089efe4e0de91b4f38a99d81381208b0fbdf4c96fa0 conn=dyndial err=EOF
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=b36984ed7728a27870f4a089efe4e0de91b4f38a99d81381208b0fbdf4c96fa0 duration=187.132µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=b9a84274d0822f17ccb75e7ce504c2e5a5982317c453a044bf3da9b351caec8c addr=150.136.217.177:39797 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=b111348ffce6d7146321846a1d9cbb18e840f074eced128985a5c911de4dd3e2 addr=161.97.176.10:28657 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=bd4255418c5c1cc1f10c7a8e598e1bb748c8be0f0908d63d08b89dc46964a425 addr=54.190.87.88:30308 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=befd3ac65068a29ab6caf8def24aa045d8997ef1a7ff0ff1930c037d771a6445 addr=62.171.181.140:39797 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=bc72a65660a8e6f46d55d7dab9f9486d62696081c7939dbdb920153634e19e48 addr=185.95.73.217:30305 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=b8f5cc8c89d851e34ea9da5c23b5ffafd5c5d13c0e8f3daa05d302f89afef38d addr=73.193.19.188:31404 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=ba545c921e9994f25ce642629bf43e9164fcebe5d861456329b8491e88339529 addr=184.148.243.44:30404 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=b93e9dbabe52c3646b91b00b48db75623ae90cd02a566866edc8e8b0aface203 addr=116.202.86.163:30303 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=b4e2b2dba617692f54ac5665ad8ed43aba45b3eb4a5e0408a1582a6ca2427389 addr=88.217.6.53:30303 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=b60e0c6b0916d8cbfcfc45a1f9a0ed73725c8666e36552ff5af206c72dbc7a4a addr=185.97.208.3:30303 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=b0f2bd5bfbe8e30c3537c1f01a4001540a6993475845d978f09d38fe97ef8339 addr=34.171.209.96:30303 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=b4be74027ab5c96380a78b91734c6e6e5c1b6de16a76edcd90308bdb21f8ca70 addr=104.218.49.139:30306 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=b36984ed7728a27870f4a089efe4e0de91b4f38a99d81381208b0fbdf4c96fa0 addr=57.128.184.89:30303 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=b061b93635b04fbacaa92c77e3ce2ed2099428887656dd5f9decf70cfdd8ef46 addr=14.161.3.136:9333 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=b2115e1b085542d02a4aa490634ffa72f751df5980a5332046ac0469d1658f90 conn=dyndial addr=212.27.25.161:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Message handling failed in `snap`" peer=b2115e1b err=EOF
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Ethereum handshake failed" id=b2115e1b085542d02a4aa490634ffa72f751df5980a5332046ac0469d1658f90 conn=dyndial err=EOF
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=b2115e1b085542d02a4aa490634ffa72f751df5980a5332046ac0469d1658f90 duration=304.992µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="ENR request failed" id=b09914a8dc70a0a901cde9613b0b9d4605138aa121b13d7785442b40bce22bba addr=15.161.168.112:30303 err="udp timeout"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=b60e0c6b0916d8cbfcfc45a1f9a0ed73725c8666e36552ff5af206c72dbc7a4a conn=dyndial addr=185.97.208.3:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Ethereum handshake failed" id=b60e0c6b0916d8cbfcfc45a1f9a0ed73725c8666e36552ff5af206c72dbc7a4a conn=dyndial err=EOF
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=b60e0c6b0916d8cbfcfc45a1f9a0ed73725c8666e36552ff5af206c72dbc7a4a duration=237.458µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=b4e2b2dba617692f54ac5665ad8ed43aba45b3eb4a5e0408a1582a6ca2427389 conn=dyndial addr=88.217.6.53:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Ethereum handshake failed" id=b4e2b2dba617692f54ac5665ad8ed43aba45b3eb4a5e0408a1582a6ca2427389 conn=dyndial err=EOF
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=b4e2b2dba617692f54ac5665ad8ed43aba45b3eb4a5e0408a1582a6ca2427389 duration=182.387µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:52+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=83c2cd06fd0665c718db626b5fbca24e40bdc39ca913d256cb6e3f5eb6e4c462 conn=dyndial addr=103.21.0.222:31404 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=bc72a65660a8e6f46d55d7dab9f9486d62696081c7939dbdb920153634e19e48 conn=dyndial addr=185.95.73.217:30305 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=b4be74027ab5c96380a78b91734c6e6e5c1b6de16a76edcd90308bdb21f8ca70 conn=dyndial addr=104.218.49.139:30306 name=besu/v24.3.0/linux-x...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=b4be74027ab5c96380a78b91734c6e6e5c1b6de16a76edcd90308bdb21f8ca70 conn=dyndial err="network ID mismatch: 450 (!= 191)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Message handling failed in `snap`" peer=b4be7402 err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=b4be74027ab5c96380a78b91734c6e6e5c1b6de16a76edcd90308bdb21f8ca70 duration=564.789µs req=false err="network ID mismatch: 450 (!= 191)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=ba545c921e9994f25ce642629bf43e9164fcebe5d861456329b8491e88339529 conn=dyndial addr=184.148.243.44:30404 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Message handling failed in `snap`" peer=ba545c92 err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=ba545c921e9994f25ce642629bf43e9164fcebe5d861456329b8491e88339529 conn=dyndial err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=ba545c921e9994f25ce642629bf43e9164fcebe5d861456329b8491e88339529 duration=302.905µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="ENR request failed" id=83d6cd1f6ec5d5f2de841854ced65ec4aaa809e348a08fd237cb1ea41c6cf3cb addr=34.89.249.173:30303 err="udp timeout"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="ENR request failed" id=83d68779e4e7baed70342b3f99a252a728241b630580e749d377a9aa17ad48e6 addr=31.220.83.195:30303 err="udp timeout"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="ENR request failed" id=83e13c71eef8133ccd9c6a9009bb832163e8db89bf11027a6f500c607e9b9046 addr=15.235.218.6:30303 err="udp timeout"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="ENR request failed" id=83d036e78570ed22e24ee5f60136762468c9cc14e39e6452becc24889128f0b1 addr=5.35.244.114:30303 err="udp timeout"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=b8f5cc8c89d851e34ea9da5c23b5ffafd5c5d13c0e8f3daa05d302f89afef38d conn=dyndial addr=73.193.19.188:31404 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=b8f5cc8c89d851e34ea9da5c23b5ffafd5c5d13c0e8f3daa05d302f89afef38d conn=dyndial err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=b8f5cc8c89d851e34ea9da5c23b5ffafd5c5d13c0e8f3daa05d302f89afef38d duration=416.839µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=bc72a65660a8e6f46d55d7dab9f9486d62696081c7939dbdb920153634e19e48 conn=dyndial err="network ID mismatch: 1 (!= 191)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=bc72a65660a8e6f46d55d7dab9f9486d62696081c7939dbdb920153634e19e48 duration=221.639ms req=false err="network ID mismatch: 1 (!= 191)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=83c2cd06fd0665c718db626b5fbca24e40bdc39ca913d256cb6e3f5eb6e4c462 conn=dyndial err="network ID mismatch: 100 (!= 191)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=83c2cd06fd0665c718db626b5fbca24e40bdc39ca913d256cb6e3f5eb6e4c462 duration=409.539ms req=false err="network ID mismatch: 100 (!= 191)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=b061b93635b04fbacaa92c77e3ce2ed2099428887656dd5f9decf70cfdd8ef46 conn=dyndial addr=14.161.3.136:9333 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="ENR request failed" id=b30c7635b3f4b75c0ab94734fd7ba16bdfc8c511fe45bda42e2b1208aa93c5c3 addr=51.89.96.86:30303 err="udp timeout"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="ENR request failed" id=bca88cceaf4d798e01312a050d0f9522b31ffad861576fd94a90e8e62a17557a addr=162.19.37.23:31311 err="udp timeout"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="ENR request failed" id=b183843dfb6d623ec6313b2064ed12e92ac55abd8b2c8f8361d363c60a8a63c9 addr=119.12.130.54:30303 err="udp timeout"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="ENR request failed" id=bb7c128b39523b785c8c6d8b143fe5b573f43b913cccdba2a9ff00024faf7d32 addr=185.155.97.41:31404 err="udp timeout"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="ENR request failed" id=b2115e1b085542d02a4aa490634ffa72f751df5980a5332046ac0469d1658f90 addr=212.27.25.161:30303 err="udp timeout"
+t=2024-04-24T15:59:53+0100 lvl=info msg="Looking for peers" peercount=1 tried=218 static=1
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=b416a61c52159e0a8459b056c840727482e587fbb65c2c79ce5f5481b40fa5d0 conn=dyndial addr=108.128.180.70:30078 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=b416a61c52159e0a8459b056c840727482e587fbb65c2c79ce5f5481b40fa5d0 conn=dyndial err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=b416a61c52159e0a8459b056c840727482e587fbb65c2c79ce5f5481b40fa5d0 duration=170.959µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=6d9f672f7893990d876765cf5ec32bc1b4838553ebae8802be26c10a79960aed conn=dyndial addr=2.36.9.235:30404 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Message handling failed in `snap`" peer=6d9f672f err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=6d9f672f7893990d876765cf5ec32bc1b4838553ebae8802be26c10a79960aed conn=dyndial err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=6d9f672f7893990d876765cf5ec32bc1b4838553ebae8802be26c10a79960aed duration=256.762µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=b62b1069604e7e4ddb12d6876de3d2738db20a5ccf93f571989e57d8525e6ebb conn=dyndial addr=3.10.19.215:30314 name=Nodecrawler/v1.14.0-...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=4ecf8f0d90544cd47fa2ffd8c1fd9a100dbb8a41abadcdfc5d6197a746ab57b0 conn=dyndial addr=23.154.136.127:30311 name=Geth/v1.3.8-e377b5d5...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="ENR request failed" id=6d9f672f7893990d876765cf5ec32bc1b4838553ebae8802be26c10a79960aed addr=2.36.9.235:30404 err="udp timeout"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=4 id=9f3c732d2c8c7ec73472a4592adc48bb7fbf12f9d6fb54f70dee79ea96d68c9b conn=dyndial addr=198.24.169.14:38136 name=erigon/v1.2.5/linux-...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=5 id=3e7a39d98339c5594499b5dd262364f7b7deaab29ea410fde4667b70c6ed66de conn=dyndial addr=72.251.237.17:35558 name=erigon/v1.2.5/linux-...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=6 id=b66326993cb98fb3559a7831496767671bd06e817a0502aae7a36b7457e480b7 conn=dyndial addr=74.201.193.162:56963 name=erigon/v1.2.5/linux-...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=7 id=b6782259a347389fd12ec48135decbf45283562c3b2c0e71a7a5812fdf65091e conn=dyndial addr=72.251.237.11:46246 name=erigon/v1.2.5/linux-...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=8 id=0ed8fba00186bf5617f8f232d3182b56a37093986a0a81218a3de90062fc55e7 conn=dyndial addr=68.179.128.48:30404 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="ENR request failed" id=b60e0c6b0916d8cbfcfc45a1f9a0ed73725c8666e36552ff5af206c72dbc7a4a addr=185.97.208.3:30303 err="udp timeout"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=0ed8fba00186bf5617f8f232d3182b56a37093986a0a81218a3de90062fc55e7 conn=dyndial err="shutting down"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Message handling failed in `snap`" peer=0ed8fba0 err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=7 id=0ed8fba00186bf5617f8f232d3182b56a37093986a0a81218a3de90062fc55e7 duration=649.163µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=b62b1069604e7e4ddb12d6876de3d2738db20a5ccf93f571989e57d8525e6ebb conn=dyndial err="no status message: upgrade status msg has code 3 (!= b)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Message handling failed in `snap`" peer=b62b1069 err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=6 id=b62b1069604e7e4ddb12d6876de3d2738db20a5ccf93f571989e57d8525e6ebb duration=161.670ms req=false err="no status message: upgrade status msg has code 3 (!= b)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Adding p2p peer" peercount=7 id=b63ecd788b10e6bd91e8338dfaaa049ef51e5b029daa6b5a1eb42ebbf5248b03 conn=dyndial addr=74.201.193.142:48577 name=erigon/v1.2.5/linux-...
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=b061b93635b04fbacaa92c77e3ce2ed2099428887656dd5f9decf70cfdd8ef46 conn=dyndial err="network ID mismatch: 1 (!= 191)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Message handling failed in `snap`" peer=b061b936 err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=6 id=b061b93635b04fbacaa92c77e3ce2ed2099428887656dd5f9decf70cfdd8ef46 duration=495.655ms req=true err="breach of protocol"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=4ecf8f0d90544cd47fa2ffd8c1fd9a100dbb8a41abadcdfc5d6197a746ab57b0 conn=dyndial err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Message handling failed in `bsc`" peer=4ecf8f0d err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Message handling failed in `snap`" peer=4ecf8f0d err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=5 id=4ecf8f0d90544cd47fa2ffd8c1fd9a100dbb8a41abadcdfc5d6197a746ab57b0 duration=215.241ms req=false err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=3e7a39d98339c5594499b5dd262364f7b7deaab29ea410fde4667b70c6ed66de conn=dyndial err=EOF
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=4 id=3e7a39d98339c5594499b5dd262364f7b7deaab29ea410fde4667b70c6ed66de duration=215.771ms req=true err="disconnect requested"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=9f3c732d2c8c7ec73472a4592adc48bb7fbf12f9d6fb54f70dee79ea96d68c9b conn=dyndial err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=3 id=9f3c732d2c8c7ec73472a4592adc48bb7fbf12f9d6fb54f70dee79ea96d68c9b duration=217.938ms req=true err="disconnect requested"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=b6782259a347389fd12ec48135decbf45283562c3b2c0e71a7a5812fdf65091e conn=dyndial err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Ethereum handshake failed" id=b66326993cb98fb3559a7831496767671bd06e817a0502aae7a36b7457e480b7 conn=dyndial err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=b6782259a347389fd12ec48135decbf45283562c3b2c0e71a7a5812fdf65091e duration=207.469ms req=true err="disconnect requested"
+t=2024-04-24T15:59:53+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=b66326993cb98fb3559a7831496767671bd06e817a0502aae7a36b7457e480b7 duration=208.210ms req=true err="disconnect requested"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Ethereum handshake failed" id=b63ecd788b10e6bd91e8338dfaaa049ef51e5b029daa6b5a1eb42ebbf5248b03 conn=dyndial err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=b63ecd788b10e6bd91e8338dfaaa049ef51e5b029daa6b5a1eb42ebbf5248b03 duration=259.524ms req=true err="disconnect requested"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=83d76f09bc307beb602670ea67d5538693c166fbc5b12dba9d3117216d04c82b addr=147.12.250.50:53810 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=b6e68250d8922068c31bcb04a9fa81fd1983ecca6992ed43d3dfca63f0de2871 addr=70.228.73.71:30303 err="invalid IP in response record: loopback address from non-loopback host"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=b416a61c52159e0a8459b056c840727482e587fbb65c2c79ce5f5481b40fa5d0 addr=108.128.180.70:30078 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Caller gas above allowance, capping" requested=9223372036854775807 cap=50000000
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Executing EVM call finished" runtime=148.802µs
+t=2024-04-24T15:59:54+0100 lvl=error msg="Failed to prepare header for sealing" err="abi: attempting to unmarshal an empty string while arguments are expected"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=b6150725a798281b235e73430e7e1230a1194cff92fa52c88cf21c1eeb3699d1 addr=159.223.211.172:30303 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=b626f7da856e2bbfd664c145c823199d424aa18d38258791c210bd40d82e2a80 addr=62.138.0.29:50303 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=b6ea6404b953e251838020ba67e012ce9a599edf730a50fe126e68a226eba778 addr=65.108.81.14:30303 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=b673af3ed2146dc0199a554bfe4ee017c01795dce873063c9c207639ce49cbe0 addr=35.230.171.127:30303 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=0ed8fba00186bf5617f8f232d3182b56a37093986a0a81218a3de90062fc55e7 addr=68.179.128.48:30404 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=b6e68250d8922068c31bcb04a9fa81fd1983ecca6992ed43d3dfca63f0de2871 conn=dyndial addr=70.228.73.71:30303 name=besu/v24.3.3/linux-x...
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Message handling failed in `snap`" peer=b6e68250 err=EOF
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Ethereum handshake failed" id=b6e68250d8922068c31bcb04a9fa81fd1983ecca6992ed43d3dfca63f0de2871 conn=dyndial err=EOF
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=b6e68250d8922068c31bcb04a9fa81fd1983ecca6992ed43d3dfca63f0de2871 duration=687.39µs req=true err="disconnect requested"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=b6f63cf7bcacec253d3edcb320c179f0e609e14907d8df147742e3157b301379 addr=67.5.121.160:30303 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=b53113de201c062d1e1f9589e64660217234c7664cb81c43d6ef8476b53e4b67 addr=34.203.112.128:30317 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=b6782259a347389fd12ec48135decbf45283562c3b2c0e71a7a5812fdf65091e addr=72.251.237.11:46246 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=f01795e146ac461976396b4609476cc1f2dc0db49567a640cff6f710bde34c92 addr=54.254.217.18:30303 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=0662798fadd453f3af5ae784516ebac6dad1d01d06b139a988b94066e3f54b18 addr=72.42.155.252:30303 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=d212c67b35edf6c6b5271a284cadfbb2dd065571f99bffc8b155084e64bf3d46 addr=20.63.189.214:30300 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=5253726e76708f58b195b1b3c1bb768e4f223145d1f59a7806567274a1de4c22 addr=91.137.64.112:30328 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=54247d94d15c89d789004aef55859f17bcc58a36fdf250a138359f13903e32dd addr=103.54.44.13:30303 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=b6c5f9b4d239287663736769bfd4ef3c9dfdf9efb34beb7e30835f7eb9f3b183 addr=109.123.230.160:48159 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=c25dc9075d7f6582bbd504f2f0ec5defd204d3551d8aeaa58779e6cdf008010e addr=138.201.18.81:30303 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=b678ad1fc38c90c3915bb4deb89694e5aba4f5b051682ab922faf91ab6e56ab3 conn=dyndial addr=45.63.100.155:30303 name=Geth/v1.4.1-stable/l...
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Snapshot extension registration failed" peer=b678ad1f err="peer connected on snap without compatible eth support: have [eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=b678ad1fc38c90c3915bb4deb89694e5aba4f5b051682ab922faf91ab6e56ab3 duration=280.612µs req=false err="peer connected on snap without compatible eth support: have [eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="ENR request failed" id=b611865302890c0ec0931f00f613c85149064b3f59394e4d8702d5cb47a8f24a addr=52.231.74.146:50505 err="udp timeout"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=b675839cb140d3d3650a030bd6ffe945249ffa7216b22c31cf157711ca06a01c conn=dyndial addr=74.201.193.145:33857 name=erigon/v1.2.5/linux-...
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=b67f9b6181b299681e1d0b51be3a30bed15436d3055ffb5c90533f600f884ca2 conn=dyndial addr=64.176.11.92:5633 name=Geth/v1.10.26-stable...
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Snapshot extension registration failed" peer=b67f9b61 err="peer connected on snap without compatible eth support: have [eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=b67f9b6181b299681e1d0b51be3a30bed15436d3055ffb5c90533f600f884ca2 duration=206.732µs req=false err="peer connected on snap without compatible eth support: have [eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=b66ed6b163f851619991c4fa21bbada4e957a413ffd2dfbcf61b5d7a6160f844 conn=dyndial addr=38.242.196.245:30300 name=Geth/volod/v1.10.0-s...
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Snapshot extension registration failed" peer=b66ed6b1 err="peer connected on snap without compatible eth support: have [eth/64 eth/65 eth/66 istanbul/64 istanbul/99 istanbul/100 snap/1]"
+t=2024-04-24T15:59:54+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=b66ed6b163f851619991c4fa21bbada4e957a413ffd2dfbcf61b5d7a6160f844 duration=218.316µs req=false err="peer connected on snap without compatible eth support: have [eth/64 eth/65 eth/66 istanbul/64 istanbul/99 istanbul/100 snap/1]"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="ENR request failed" id=b675d35fc8d80584ad4ed4251313b9f877b6b28409b410eb7c3ce4e04604e8cb addr=31.131.228.225:30313 err="invalid IP in response record: LAN address from WAN host"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="Ethereum handshake failed" id=b675839cb140d3d3650a030bd6ffe945249ffa7216b22c31cf157711ca06a01c conn=dyndial err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=b675839cb140d3d3650a030bd6ffe945249ffa7216b22c31cf157711ca06a01c duration=238.903ms req=false err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="ENR request failed" id=ba4ce8f11756aeab3df8e3533dad78d3424d89cf34354f4fc876946a878a102e addr=45.129.182.136:30303 err="udp timeout"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="ENR request failed" id=b6f1b2eb4eaa355211f176d41b5942ff835e8d41b8e26266aa2eac7e5b60bf50 addr=131.153.232.35:30323 err="udp timeout"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=b6c5f9b4d239287663736769bfd4ef3c9dfdf9efb34beb7e30835f7eb9f3b183 conn=dyndial addr=109.123.230.160:48159 name=erigon/v1.2.5/linux-...
+t=2024-04-24T15:59:55+0100 lvl=debug msg="Ethereum handshake failed" id=b6c5f9b4d239287663736769bfd4ef3c9dfdf9efb34beb7e30835f7eb9f3b183 conn=dyndial err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=b6c5f9b4d239287663736769bfd4ef3c9dfdf9efb34beb7e30835f7eb9f3b183 duration=358.71µs req=false err="network ID mismatch: 56 (!= 191)"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="ENR request failed" id=b67cf05610965579d51e718ebc4faa2dc3875f76b71f1f744172e612b21166ee addr=65.108.231.237:30304 err="udp timeout"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="ENR request failed" id=b67488a045d5a99f55d7da75e1299f00a7324ebefddb051fdce993f3e19c9aea addr=130.61.119.74:30303 err="udp timeout"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=b6702c0326ceb9594666f1e86a95c8f38cb54bc74bc6838eb9d39ac4820e6b69 conn=dyndial addr=195.201.160.24:35012 name=Geth/v1.0.1-42903232...
+t=2024-04-24T15:59:55+0100 lvl=debug msg="Snapshot extension registration failed" peer=b6702c03 err="peer connected on snap without compatible eth support: have [diff/1 eth/65 eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=b6702c0326ceb9594666f1e86a95c8f38cb54bc74bc6838eb9d39ac4820e6b69 duration=396.367µs req=false err="peer connected on snap without compatible eth support: have [diff/1 eth/65 eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="ENR request failed" id=7054f0b4e13961f4cc55d8f1066d810c6c989d4d4897ca714b27a82df4919fef addr=135.181.182.162:29424 err="udp timeout"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="ENR request failed" id=b09739a26d6ae2f7afe52f24d179fc7c75f78f9875e20d9189382178c0e48d22 addr=158.220.87.89:39797 err="udp timeout"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="ENR request failed" id=53b9b353aa27d5ac1cc3493f738e58d728e57d5c00aa7801e5065e6d3d5b55f2 addr=146.59.111.166:30303 err="udp timeout"
+t=2024-04-24T15:59:55+0100 lvl=debug msg="ENR request failed" id=c8b5468bdd603e945f1bb13dae7898581a733f511988c281b387b944bfeb18f7 addr=65.109.105.59:15701 err="udp timeout"
+t=2024-04-24T15:59:56+0100 lvl=debug msg="ENR request failed" id=2f1def2d74b4dc17eb110d59e3c6a1410cf5bbf83453d5807dc7e053227615dc addr=51.79.229.29:30404 err="udp timeout"
+t=2024-04-24T15:59:56+0100 lvl=debug msg="ENR request failed" id=54a50e181537c7fdbbb679a29ad63c7a5f69c4bfec2882aab6c63a82f64d2182 addr=91.107.87.129:30303 err="udp timeout"
+t=2024-04-24T15:59:56+0100 lvl=debug msg="ENR request failed" id=a57a567307a7453e03eb9c156c486b9b9598b5e12358b6fad1339d515d590b82 addr=146.59.118.112:30018 err="udp timeout"
+t=2024-04-24T15:59:56+0100 lvl=debug msg="ENR request failed" id=6be5a6dae39f3d6799d370e1fb06212cbd79218537d888ff217d0c2a805a0e27 addr=159.196.236.67:30404 err="udp timeout"
+t=2024-04-24T15:59:56+0100 lvl=debug msg="ENR request failed" id=fc37634a74fc7ee44456f0c69eb7ba4d25365baec10d25ccef6383921044e286 addr=69.46.7.154:30303 err="udp timeout"
+t=2024-04-24T15:59:56+0100 lvl=debug msg="ENR request failed" id=f014ccd6876e8bb44e05231d3d191b3f60c7a733928fbdc4328a7f790ebec18f addr=34.223.210.11:30308 err="udp timeout"
+t=2024-04-24T15:59:56+0100 lvl=debug msg="ENR request failed" id=f90f98275256f50b172a218553773f5a86d418585f48d47a8c44ae5ef66686e3 addr=52.192.191.160:30306 err="udp timeout"
+t=2024-04-24T15:59:56+0100 lvl=debug msg="ENR request failed" id=fafd6bd643e057e84092f1f5f15db372bdf4dcecf19c4584137410a1978c0956 addr=52.199.249.94:30306 err="udp timeout"
+t=2024-04-24T15:59:56+0100 lvl=debug msg="ENR request failed" id=fe54e75962685b6a98f35a465612173438834657e206b67300890daa0ff0fff6 addr=98.59.227.235:30303 err="udp timeout"
+t=2024-04-24T15:59:56+0100 lvl=debug msg="ENR request failed" id=b67c3c400b3a0e018a4c732179d489da75912c73b27f086c180d81d594f46d61 addr=209.126.0.194:33416 err="udp timeout"
+t=2024-04-24T15:59:56+0100 lvl=debug msg="ENR request failed" id=b67e0cedf13812fef3f4171ec4543d23249474f84631103377043765645a612f addr=203.253.11.22:30304 err="udp timeout"
+t=2024-04-24T15:59:56+0100 lvl=debug msg="ENR request failed" id=b67488a045d5a99f55d7da75e1299f00a7324ebefddb051fdce993f3e19c9aea addr=130.61.119.74:30303 err="udp timeout"
+t=2024-04-24T15:59:57+0100 lvl=debug msg="ENR request failed" id=b67cbd344c997a77a3932834477ead2960e3b8e4e104732080c129b21bdb0797 addr=80.242.240.19:45409 err="udp timeout"
+t=2024-04-24T15:59:57+0100 lvl=debug msg="ENR request failed" id=b675dd850fddee966c8b1b408d0ca00551969a912a6cb125b683e0960ea29821 addr=98.97.71.201:30420 err="udp timeout"
+t=2024-04-24T15:59:57+0100 lvl=debug msg="Revalidated node" b=8 id=ce7f9cbc453d0cafd8d80e01e9c2af5f13fe846e2bd9bc64c1318bb787c56384 checks=1
+t=2024-04-24T15:59:58+0100 lvl=debug msg="ENR request failed" id=b504b76381d108802421de251c16196386c54b3e959109442189d191bed7452e addr=54.64.208.68:30304 err="udp timeout"
+t=2024-04-24T15:59:58+0100 lvl=debug msg="ENR request failed" id=b416ef62ffb81511bfd6964620e72c8cdbc6b71a7250114c41c6c39d22749c04 addr=52.194.71.63:30309 err="udp timeout"
+t=2024-04-24T15:59:58+0100 lvl=debug msg="ENR request failed" id=b678ac1af7113e15c53578e8bf1502492d94f612f50815db4a2da272294817e2 addr=108.206.8.91:53537 err="udp timeout"
+t=2024-04-24T15:59:58+0100 lvl=debug msg="ENR request failed" id=b67488a045d5a99f55d7da75e1299f00a7324ebefddb051fdce993f3e19c9aea addr=130.61.119.74:30303 err="udp timeout"
+t=2024-04-24T15:59:58+0100 lvl=debug msg="ENR request failed" id=b67488a045d5a99f55d7da75e1299f00a7324ebefddb051fdce993f3e19c9aea addr=130.61.119.74:30303 err="udp timeout"
+t=2024-04-24T15:59:58+0100 lvl=debug msg="ENR request failed" id=2208977fb84bf6934aa3a9141268ab4c98c0f61fd0737b633152a225b6ec94ab addr=108.85.174.65:30303 err="invalid IP in response record: LAN address from WAN host"
+t=2024-04-24T15:59:58+0100 lvl=debug msg="ENR request failed" id=22249d18f96a1c02a2cb27aa54bb07deee6024298f19a5d8fcd51731f163658e addr=20.172.219.246:30303 err="invalid IP in response record: LAN address from WAN host"
+t=2024-04-24T15:59:58+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=23b8942944186ec4fa0c70206f187212f2971da2a61719ae270915d3dcc36122 conn=dyndial addr=185.150.197.35:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:58+0100 lvl=debug msg="Ethereum handshake failed" id=23b8942944186ec4fa0c70206f187212f2971da2a61719ae270915d3dcc36122 conn=dyndial err=EOF
+t=2024-04-24T15:59:58+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=23b8942944186ec4fa0c70206f187212f2971da2a61719ae270915d3dcc36122 duration=555.994µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=22d9ea48072e66702b144856ce6a255cd6c209793b74e52d6f1517c0c120b542 addr=136.52.66.67:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=23084dd62f26de5dbb4b07acd1877ddc99e8a28171d75d8ddd00876b8c638c58 addr=38.242.217.97:28657 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=2266d6dc3a6918b78bca60f3e3fad4711f2aebe03db50597347b35414dd4311d addr=193.93.77.248:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=238d48b011abaac9ccff77bf7bc15e3cc9e6af0ca739560687658b62829fdb0e addr=3.130.32.228:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=229c4825457ead424c64916d959d73864c7b9d2b3154edc4174e44bbc8166de6 addr=167.71.77.49:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=2318b83304fe3387db87208d51210dfc90285ca31629a52eea30a0ed3f1a9abf addr=51.75.65.25:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=226b33fc120b85855543d11f7fc749c49f15f04e5fe27bc0ea7869fb62271a78 addr=103.31.98.68:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=20f8ddb4307634c6af2e0272051dac85f04eb65375a86cb95193bb106c0d5c7f addr=158.220.80.48:39797 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=23d7f32b59bdc74dc4388578ea633a1200f1fabd07822d032025a67107a43916 addr=116.203.159.84:39797 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=234c2c895914b451fc8abaafe328d2b3528ff878d90a68d5746e79b8fa6b0a02 addr=158.220.114.68:39797 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=2384e97d695d494d6385c4ae446e33b24ba1127f87ccde9179ffe10af98352c3 addr=187.149.240.42:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=23b8942944186ec4fa0c70206f187212f2971da2a61719ae270915d3dcc36122 addr=185.150.197.35:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=22a3062b7651cb82ee79f1f2f41549d9a29dc19bd8205c276903ce1c55eb4e15 addr=185.205.246.41:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=22a3062b7651cb82ee79f1f2f41549d9a29dc19bd8205c276903ce1c55eb4e15 conn=dyndial addr=185.205.246.41:30303 name=besu/v24.3.0/linux-x...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Snapshot extension registration failed" peer=22a3062b err="peer connected on snap without compatible eth support: have [eth/63 eth/64 eth/65 eth/66 eth/67 snap/1]"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=22a3062b7651cb82ee79f1f2f41549d9a29dc19bd8205c276903ce1c55eb4e15 duration=250.831µs req=true err="disconnect requested"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=27edf20956ff9f5de96a1d9abc75a612b762d0b33f73f2bee317ea0c632921eb conn=dyndial addr=16.63.160.129:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Ethereum handshake failed" id=27edf20956ff9f5de96a1d9abc75a612b762d0b33f73f2bee317ea0c632921eb conn=dyndial err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=27edf20956ff9f5de96a1d9abc75a612b762d0b33f73f2bee317ea0c632921eb duration=154.593µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=2266d6dc3a6918b78bca60f3e3fad4711f2aebe03db50597347b35414dd4311d conn=dyndial addr=193.93.77.248:30303 name=besu/v24.3.3/linux-x...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Ethereum handshake failed" id=2266d6dc3a6918b78bca60f3e3fad4711f2aebe03db50597347b35414dd4311d conn=dyndial err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Message handling failed in `snap`" peer=2266d6dc err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=2266d6dc3a6918b78bca60f3e3fad4711f2aebe03db50597347b35414dd4311d duration=12.169ms req=true err="disconnect requested"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=2384e97d695d494d6385c4ae446e33b24ba1127f87ccde9179ffe10af98352c3 conn=dyndial addr=187.149.240.42:30303 name=besu/v24.1.2/linux-a...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=b67488a045d5a99f55d7da75e1299f00a7324ebefddb051fdce993f3e19c9aea addr=130.61.119.74:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=27edf20956ff9f5de96a1d9abc75a612b762d0b33f73f2bee317ea0c632921eb addr=16.63.160.129:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=3a6eb5f8bc155c8334164514f0c9008ced4a78e0bdb9ffe8e2efd1288b43790e addr=15.207.188.58:30308 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=27b4369c73f0a6357a9386810702d07ce8c6b0bc85c74ac822105fa8e30659c9 addr=35.237.223.228:31002 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=3a4aa64087b63e66fd7aa3905cffeed3e78b6c46990d7c30939b807ffd4aa117 addr=34.41.36.45:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=3e1164c0f31fe1cd8fd775cd0b0c12cb33df5b74bab9ac59470cccd07f08dbdc addr=47.157.149.58:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=363baf8374ada4885c6e1fd63c79c4857ba40bd560606c1b3aa5c90e1b57a64f addr=49.12.168.23:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=2688b6c49b4e734cdabad5477df6632d479b3d1c215c719fc9762d0b2774feb2 addr=15.235.145.108:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=27b7413af3ef4e3394de1b118a01e54ac8a2d97999b2f4a5baa730eea03d3607 addr=208.64.36.76:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=2810c1a384ddd2084b5655fe21bf97574dccd030f78fb0b0c46b1ec6bd9b287b addr=68.82.7.139:31404 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=0379d46f9c79e26b67ef151217f495e089671cb361b5b65b78596851239aabe5 addr=35.246.59.108:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=36e93609b75daa4d1d5251a16bcafb535952fd93aa67a6eb72860e789329aeaa addr=24.199.97.205:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=33af7e27fc4f40bd821f8b363f73cac2a7de5de66ea2a79f7174e2677e313ec3 addr=38.97.200.229:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=2e7196f4aa837fc43b3905504d36a1f5be62f9258dfe442f73460e0c8ee8db8d addr=122.29.157.69:31404 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=2306249d3b3ac46498ef0cbe3a72e21faf32171fac78bf797a25e57679d0ee5a addr=68.104.23.18:30305 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=b67488a045d5a99f55d7da75e1299f00a7324ebefddb051fdce993f3e19c9aea addr=130.61.119.74:30303 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=226b33fc120b85855543d11f7fc749c49f15f04e5fe27bc0ea7869fb62271a78 conn=dyndial addr=103.31.98.68:30303 name=besu/v24.3.3/linux-x...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=3 id=363baf8374ada4885c6e1fd63c79c4857ba40bd560606c1b3aa5c90e1b57a64f conn=dyndial addr=49.12.168.23:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Message handling failed in `snap`" peer=226b33fc err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Message handling failed in `snap`" peer=363baf83 err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Ethereum handshake failed" id=226b33fc120b85855543d11f7fc749c49f15f04e5fe27bc0ea7869fb62271a78 conn=dyndial err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=2 id=226b33fc120b85855543d11f7fc749c49f15f04e5fe27bc0ea7869fb62271a78 duration=1.304ms req=true err="disconnect requested"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Ethereum handshake failed" id=363baf8374ada4885c6e1fd63c79c4857ba40bd560606c1b3aa5c90e1b57a64f conn=dyndial err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=363baf8374ada4885c6e1fd63c79c4857ba40bd560606c1b3aa5c90e1b57a64f duration=1.294ms req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=2810c1a384ddd2084b5655fe21bf97574dccd030f78fb0b0c46b1ec6bd9b287b conn=dyndial addr=68.82.7.139:31404 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Ethereum handshake failed" id=2810c1a384ddd2084b5655fe21bf97574dccd030f78fb0b0c46b1ec6bd9b287b conn=dyndial err="write tcp 192.168.1.77:35744->68.82.7.139:31404: use of closed network connection"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=2810c1a384ddd2084b5655fe21bf97574dccd030f78fb0b0c46b1ec6bd9b287b duration=1.315ms req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Message handling failed in `snap`" peer=2306249d err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Ethereum handshake failed" id=2306249d3b3ac46498ef0cbe3a72e21faf32171fac78bf797a25e57679d0ee5a conn=dyndial err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=2306249d3b3ac46498ef0cbe3a72e21faf32171fac78bf797a25e57679d0ee5a conn=dyndial addr=68.104.23.18:30305 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=2306249d3b3ac46498ef0cbe3a72e21faf32171fac78bf797a25e57679d0ee5a duration=2.635ms req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Ethereum handshake failed" id=2384e97d695d494d6385c4ae446e33b24ba1127f87ccde9179ffe10af98352c3 conn=dyndial err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Message handling failed in `snap`" peer=2384e97d err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=2384e97d695d494d6385c4ae446e33b24ba1127f87ccde9179ffe10af98352c3 duration=319.957ms req=true err="disconnect requested"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=33af7e27fc4f40bd821f8b363f73cac2a7de5de66ea2a79f7174e2677e313ec3 conn=dyndial addr=38.97.200.229:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=22d9ea48072e66702b144856ce6a255cd6c209793b74e52d6f1517c0c120b542 conn=dyndial addr=136.52.66.67:30303 name=besu/v24.3.0/linux-x...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Message handling failed in `snap`" peer=22d9ea48 err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Ethereum handshake failed" id=22d9ea48072e66702b144856ce6a255cd6c209793b74e52d6f1517c0c120b542 conn=dyndial err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=22d9ea48072e66702b144856ce6a255cd6c209793b74e52d6f1517c0c120b542 duration=247.54µs req=true err="disconnect requested"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=27b7413af3ef4e3394de1b118a01e54ac8a2d97999b2f4a5baa730eea03d3607 conn=dyndial addr=208.64.36.76:30303 name=besu/v24.4-develop-9...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Ethereum handshake failed" id=27b7413af3ef4e3394de1b118a01e54ac8a2d97999b2f4a5baa730eea03d3607 conn=dyndial err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Message handling failed in `snap`" peer=27b7413a err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=27b7413af3ef4e3394de1b118a01e54ac8a2d97999b2f4a5baa730eea03d3607 duration=1.452ms req=true err="disconnect requested"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=2e7196f4aa837fc43b3905504d36a1f5be62f9258dfe442f73460e0c8ee8db8d conn=dyndial addr=122.29.157.69:31404 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Ethereum handshake failed" id=2e7196f4aa837fc43b3905504d36a1f5be62f9258dfe442f73460e0c8ee8db8d conn=dyndial err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=2e7196f4aa837fc43b3905504d36a1f5be62f9258dfe442f73460e0c8ee8db8d duration=5.366ms req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Adding p2p peer" peercount=2 id=3e1164c0f31fe1cd8fd775cd0b0c12cb33df5b74bab9ac59470cccd07f08dbdc conn=dyndial addr=47.157.149.58:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Message handling failed in `snap`" peer=3e1164c0 err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Ethereum handshake failed" id=3e1164c0f31fe1cd8fd775cd0b0c12cb33df5b74bab9ac59470cccd07f08dbdc conn=dyndial err=EOF
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=1 id=3e1164c0f31fe1cd8fd775cd0b0c12cb33df5b74bab9ac59470cccd07f08dbdc duration=698.571µs req=false err="snappy: corrupt input"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Ethereum handshake failed" id=33af7e27fc4f40bd821f8b363f73cac2a7de5de66ea2a79f7174e2677e313ec3 conn=dyndial err="network ID mismatch: 17000 (!= 191)"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=33af7e27fc4f40bd821f8b363f73cac2a7de5de66ea2a79f7174e2677e313ec3 duration=307.602ms req=true err="breach of protocol"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=f9cb8ad737bfcc41205b33222394529b508875030a6f1f529f4ce9f945cf91cf addr=44.205.217.228:30315 err="udp timeout"
+t=2024-04-24T15:59:59+0100 lvl=debug msg="ENR request failed" id=22d9ea48072e66702b144856ce6a255cd6c209793b74e52d6f1517c0c120b542 addr=136.52.66.67:30303 err="udp timeout"
+t=2024-04-24T16:00:00+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=038671b2f103635e75a07a3c46e5ffdaf9fb048fbcb430a723d7e60a0f069aca conn=dyndial addr=58.164.49.175:30404 name=Nethermind/v1.25.4+2...
+t=2024-04-24T16:00:00+0100 lvl=debug msg="Ethereum handshake failed" id=038671b2f103635e75a07a3c46e5ffdaf9fb048fbcb430a723d7e60a0f069aca conn=dyndial err=EOF
+t=2024-04-24T16:00:00+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=038671b2f103635e75a07a3c46e5ffdaf9fb048fbcb430a723d7e60a0f069aca duration=304.849µs req=false err="snappy: corrupt input"
+t=2024-04-24T16:00:00+0100 lvl=debug msg="ENR request failed" id=209cce80cf31731c28d826502fc35972154dffea3320557168a7408e545c66d5 addr=84.247.177.98:39797 err="udp timeout"
+t=2024-04-24T16:00:00+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=2688b6c49b4e734cdabad5477df6632d479b3d1c215c719fc9762d0b2774feb2 conn=dyndial addr=15.235.145.108:30303 name=Nethermind/v1.25.4+2...
+t=2024-04-24T16:00:00+0100 lvl=debug msg="Ethereum handshake failed" id=2688b6c49b4e734cdabad5477df6632d479b3d1c215c719fc9762d0b2774feb2 conn=dyndial err=EOF
+t=2024-04-24T16:00:00+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=2688b6c49b4e734cdabad5477df6632d479b3d1c215c719fc9762d0b2774feb2 duration=393.93µs req=false err="snappy: corrupt input"
+t=2024-04-24T16:00:00+0100 lvl=debug msg="ENR request failed" id=038671b2f103635e75a07a3c46e5ffdaf9fb048fbcb430a723d7e60a0f069aca addr=58.164.49.175:30404 err="udp timeout"
+t=2024-04-24T16:00:00+0100 lvl=debug msg="ENR request failed" id=038671b2f103635e75a07a3c46e5ffdaf9fb048fbcb430a723d7e60a0f069aca addr=58.164.49.175:30404 err="udp timeout"
+t=2024-04-24T16:00:00+0100 lvl=debug msg="ENR request failed" id=f6c54ae5c44c259de47d1b68af1fbe340f51cbd2349e46ce1565c57eba1008b6 addr=99.28.54.249:30403 err="udp timeout"
+t=2024-04-24T16:00:00+0100 lvl=debug msg="ENR request failed" id=0065f7d52adeb98896fedb1ce3d345abd7224c01249f04e0f62da1e5245ca7b7 addr=52.79.248.151:30303 err="udp timeout"
+t=2024-04-24T16:00:00+0100 lvl=debug msg="Adding p2p peer" peercount=1 id=22db5aaca93df07475b1873105f0dab4566576ddb93d4d93afb99628fe3b25e6 conn=dyndial addr=203.249.188.171:30303 name=Worldland/v1.0.5-uns...
+t=2024-04-24T16:00:00+0100 lvl=debug msg="Snapshot extension registration failed" peer=22db5aac err="peer connected on snap without compatible eth support: have [eth/66 eth/67 snap/1]"
+t=2024-04-24T16:00:00+0100 lvl=debug msg="Removing p2p peer" peercount=0 id=22db5aaca93df07475b1873105f0dab4566576ddb93d4d93afb99628fe3b25e6 duration=396.273µs req=false err="peer connected on snap without compatible eth support: have [eth/66 eth/67 snap/1]"
+t=2024-04-24T16:00:00+0100 lvl=debug msg="Revalidated node" b=16 id=413e428db45df62f6ff08f9cde9ca27ce41a977948b72eb96ae8a2991a34b0ee checks=1
